@@ -9,64 +9,67 @@
 <body class="bg-gray-50 min-h-screen flex flex-col">
 
   <!-- Top Navigation -->
-  <div class="flex items-center justify-between px-6 py-4 bg-white shadow-md">
-    <button class="text-gray-500 hover:text-gray-700 text-lg">Cancel</button>
-    <div class="flex items-center space-x-2">
-      <div class="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600 text-white text-lg">1</div>
+  <div class="flex items-center justify-between px-4 py-2 bg-white shadow-md">
+    <button class="text-gray-500 hover:text-gray-700 text-sm">Cancel</button>
+    <div class="flex items-center space-x-1">
+      <div class="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-xs">1</div>
       <div class="h-1 bg-blue-600 flex-1"></div>
-      <div class="w-10 h-10 flex items-center justify-center rounded-full bg-blue-600 text-white text-lg">2</div>
+      <div class="w-6 h-6 flex items-center justify-center rounded-full bg-blue-600 text-white text-xs">2</div>
       <div class="h-1 bg-gray-300 flex-1"></div>
-      <div class="w-10 h-10 flex items-center justify-center rounded-full bg-gray-300 text-gray-600 text-lg">3</div>
+      <div class="w-6 h-6 flex items-center justify-center rounded-full bg-gray-300 text-gray-600 text-xs">3</div>
     </div>
-    <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 text-lg">Next</button>
+    <button class="bg-blue-600 text-white px-4 py-2 rounded text-xs hover:bg-blue-700">Next</button>
   </div>
 
   <!-- Main Content -->
-  <div class="flex-grow bg-gray-50 flex flex-col items-center justify-center p-10">
-    <!-- Section Title -->
-    <h1 class="text-3xl font-bold text-gray-700 mb-10">Provide Your Financial Details</h1>
-
-    <div class="w-full max-w-5xl flex flex-col md:flex-row gap-10">
+  <div class="flex-grow bg-gray-50 flex items-center justify-center px-4 py-6">
+    <div class="flex items-center gap-8">
       <!-- Upload Monthly Income Statement Section -->
-      <div class="flex-1 bg-white border-dashed border-4 border-gray-300 rounded-lg p-8 text-center">
-        <h2 class="font-semibold text-2xl mb-6">Upload Monthly Income Statement</h2>
-        <svg class="w-16 h-16 text-blue-600 mb-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-          <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a2 2 0 002 2h12a2 2 0 002-2v-1M12 12v8m0-8L9.172 9.172M12 12l2.828-2.828M6 16V8a2 2 0 012-2h8a2 2 0 012 2v8m-2-6l-2 2m0 0l-2 2m2-2l2 2m0 0l-2-2m2-2"></path>
-        </svg>
-        <p class="text-gray-500 mb-4">Maximum file size: 50 MB</p>
-        <p class="text-gray-500 mb-8">Supported format: .PDF</p>
-        <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 text-lg">Upload File</button>
+      <div class="flex-1 bg-white border-dashed border-2 border-gray-300 rounded-lg p-8 text-center w-1/2 max-w-xl">
+        <h2 class="font-semibold text-lg mb-4">Upload Monthly Income Statement</h2>
+        <!-- Simple Arrow Icon -->
+        <div class="bg-blue-100 w-20 h-20 rounded-full flex items-center justify-center mx-auto mb-4">
+          <svg class="w-10 h-10 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 12l8-8m0 0l8 8m-8-8v16"></path>
+          </svg>
+        </div>
+        <p class="text-gray-500 text-sm mb-2">Max file size: 50 MB</p>
+        <p class="text-gray-500 text-sm mb-6">Supported format: .PDF</p>
+        <button class="bg-blue-600 text-white px-6 py-2 rounded text-sm hover:bg-blue-700">Upload File</button>
       </div>
 
+      <!-- OR Divider -->
+      <div class="text-gray-500 font-medium text-xl">OR</div>
+
       <!-- Input Financial Details Section -->
-      <div class="flex-1 bg-white rounded-lg p-8 shadow-lg">
-        <h2 class="font-semibold text-2xl mb-6">Input Financial Details</h2>
-        <form action="#" class="space-y-6">
+      <div class="flex-1 bg-white rounded-lg p-8 shadow-md w-1/2 max-w-xl">
+        <h2 class="font-semibold text-lg mb-4">Input Financial Details</h2>
+        <form action="#" class="space-y-4">
           <!-- Household Income -->
           <div>
-            <label for="income" class="block font-medium text-gray-700 mb-2">Household Income</label>
-            <input type="number" id="income" class="w-full border-gray-300 rounded-lg p-4 text-lg focus:ring-2 focus:ring-blue-600 focus:outline-none" placeholder="Enter your household income">
+            <label for="income" class="block font-medium text-gray-700 text-sm mb-1">Household Income</label>
+            <input type="number" id="income" class="w-full border-gray-300 rounded-lg p-2 text-sm focus:ring-1 focus:ring-blue-600 focus:outline-none" placeholder="Enter income">
           </div>
           <!-- Household Size -->
           <div>
-            <label for="size" class="block font-medium text-gray-700 mb-2">Household Size</label>
-            <input type="number" id="size" class="w-full border-gray-300 rounded-lg p-4 text-lg focus:ring-2 focus:ring-blue-600 focus:outline-none" placeholder="Enter the number of people in your household">
+            <label for="size" class="block font-medium text-gray-700 text-sm mb-1">Household Size</label>
+            <input type="number" id="size" class="w-full border-gray-300 rounded-lg p-2 text-sm focus:ring-1 focus:ring-blue-600 focus:outline-none" placeholder="Enter size">
           </div>
           <!-- Age -->
           <div>
-            <label for="age" class="block font-medium text-gray-700 mb-2">Age</label>
-            <input type="number" id="age" class="w-full border-gray-300 rounded-lg p-4 text-lg focus:ring-2 focus:ring-blue-600 focus:outline-none" placeholder="Enter your age">
+            <label for="age" class="block font-medium text-gray-700 text-sm mb-1">Age</label>
+            <input type="number" id="age" class="w-full border-gray-300 rounded-lg p-2 text-sm focus:ring-1 focus:ring-blue-600 focus:outline-none" placeholder="Enter age">
           </div>
           <!-- Occupation -->
           <div>
-            <label for="occupation" class="block font-medium text-gray-700 mb-2">Occupation</label>
-            <input type="text" id="occupation" class="w-full border-gray-300 rounded-lg p-4 text-lg focus:ring-2 focus:ring-blue-600 focus:outline-none" placeholder="Enter your occupation">
+            <label for="occupation" class="block font-medium text-gray-700 text-sm mb-1">Occupation</label>
+            <input type="text" id="occupation" class="w-full border-gray-300 rounded-lg p-2 text-sm focus:ring-1 focus:ring-blue-600 focus:outline-none" placeholder="Enter occupation">
           </div>
           <!-- Education Level -->
           <div>
-            <label for="education" class="block font-medium text-gray-700 mb-2">Education Level</label>
-            <select id="education" class="w-full border-gray-300 rounded-lg p-4 text-lg focus:ring-2 focus:ring-blue-600 focus:outline-none">
-              <option value="" disabled selected>Select your education level</option>
+            <label for="education" class="block font-medium text-gray-700 text-sm mb-1">Education Level</label>
+            <select id="education" class="w-full border-gray-300 rounded-lg p-2 text-sm focus:ring-1 focus:ring-blue-600 focus:outline-none">
+              <option value="" disabled selected>Select education level</option>
               <option value="highschool">High School</option>
               <option value="bachelors">Bachelor's Degree</option>
               <option value="masters">Master's Degree</option>
@@ -75,7 +78,7 @@
             </select>
           </div>
           <!-- Submit Button -->
-          <button type="submit" class="w-full bg-blue-600 text-white py-4 rounded-lg font-medium text-lg hover:bg-blue-700">Submit Details</button>
+          <button type="submit" class="w-full bg-blue-600 text-white py-2 rounded text-sm hover:bg-blue-700">Submit</button>
         </form>
       </div>
     </div>
