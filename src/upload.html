@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>File Upload UI</title>
+  <title>File Upload or Input Details</title>
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 <body class="bg-gray-50 min-h-screen flex flex-col">
@@ -23,48 +23,61 @@
 
   <!-- Main Content -->
   <div class="flex-grow bg-gray-50 flex flex-col items-center justify-center p-10">
-    <!-- Upload Section -->
-    <div class="w-full max-w-4xl border-dashed border-4 border-gray-300 rounded-lg p-16 text-center bg-white">
-      <div class="flex flex-col items-center">
+    <!-- Section Title -->
+    <h1 class="text-3xl font-bold text-gray-700 mb-10">Provide Your Financial Details</h1>
+
+    <div class="w-full max-w-5xl flex flex-col md:flex-row gap-10">
+      <!-- Upload Monthly Income Statement Section -->
+      <div class="flex-1 bg-white border-dashed border-4 border-gray-300 rounded-lg p-8 text-center">
+        <h2 class="font-semibold text-2xl mb-6">Upload Monthly Income Statement</h2>
         <svg class="w-16 h-16 text-blue-600 mb-6" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a2 2 0 002 2h12a2 2 0 002-2v-1M12 12v8m0-8L9.172 9.172M12 12l2.828-2.828M6 16V8a2 2 0 012-2h8a2 2 0 012 2v8m-2-6l-2 2m0 0l-2 2m2-2l2 2m0 0l-2-2m2-2"></path>
         </svg>
-        <p class="font-semibold text-2xl mb-2">Create or import a custom classification</p>
-        <p class="text-gray-500 text-lg">Maximum file size: 50 MB</p>
-        <p class="text-gray-500 text-lg mb-6">Supported format: .CSV</p>
+        <p class="text-gray-500 mb-4">Maximum file size: 50 MB</p>
+        <p class="text-gray-500 mb-8">Supported format: .PDF</p>
         <button class="bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 text-lg">Upload File</button>
       </div>
-    </div>
 
-    <!-- File Downloads -->
-    <div class="mt-12 w-full max-w-4xl">
-      <h2 class="text-gray-700 font-semibold text-2xl mb-6">Template file to download</h2>
-      <ul class="space-y-6">
-        <li class="flex items-center justify-between bg-gray-100 p-6 rounded-lg">
-          <div class="flex items-center space-x-4">
-            <svg class="w-8 h-8 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
-            </svg>
-            <div>
-              <p class="font-semibold text-lg">classification_v3</p>
-              <p class="text-base text-gray-500">XLSX - 1.2 MB</p>
-            </div>
+      <!-- Input Financial Details Section -->
+      <div class="flex-1 bg-white rounded-lg p-8 shadow-lg">
+        <h2 class="font-semibold text-2xl mb-6">Input Financial Details</h2>
+        <form action="#" class="space-y-6">
+          <!-- Household Income -->
+          <div>
+            <label for="income" class="block font-medium text-gray-700 mb-2">Household Income</label>
+            <input type="number" id="income" class="w-full border-gray-300 rounded-lg p-4 text-lg focus:ring-2 focus:ring-blue-600 focus:outline-none" placeholder="Enter your household income">
           </div>
-          <progress class="w-40 h-3" value="50" max="100"></progress>
-        </li>
-        <li class="flex items-center justify-between bg-gray-100 p-6 rounded-lg">
-          <div class="flex items-center space-x-4">
-            <svg class="w-8 h-8 text-blue-600" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 4v16m8-8H4"></path>
-            </svg>
-            <div>
-              <p class="font-semibold text-lg">Template Classification</p>
-              <p class="text-base text-gray-500">XLSX - 4.49 KB</p>
-            </div>
+          <!-- Household Size -->
+          <div>
+            <label for="size" class="block font-medium text-gray-700 mb-2">Household Size</label>
+            <input type="number" id="size" class="w-full border-gray-300 rounded-lg p-4 text-lg focus:ring-2 focus:ring-blue-600 focus:outline-none" placeholder="Enter the number of people in your household">
           </div>
-          <button class="bg-blue-600 text-white px-5 py-2 rounded-lg hover:bg-blue-700 text-lg">Download</button>
-        </li>
-      </ul>
+          <!-- Age -->
+          <div>
+            <label for="age" class="block font-medium text-gray-700 mb-2">Age</label>
+            <input type="number" id="age" class="w-full border-gray-300 rounded-lg p-4 text-lg focus:ring-2 focus:ring-blue-600 focus:outline-none" placeholder="Enter your age">
+          </div>
+          <!-- Occupation -->
+          <div>
+            <label for="occupation" class="block font-medium text-gray-700 mb-2">Occupation</label>
+            <input type="text" id="occupation" class="w-full border-gray-300 rounded-lg p-4 text-lg focus:ring-2 focus:ring-blue-600 focus:outline-none" placeholder="Enter your occupation">
+          </div>
+          <!-- Education Level -->
+          <div>
+            <label for="education" class="block font-medium text-gray-700 mb-2">Education Level</label>
+            <select id="education" class="w-full border-gray-300 rounded-lg p-4 text-lg focus:ring-2 focus:ring-blue-600 focus:outline-none">
+              <option value="" disabled selected>Select your education level</option>
+              <option value="highschool">High School</option>
+              <option value="bachelors">Bachelor's Degree</option>
+              <option value="masters">Master's Degree</option>
+              <option value="doctorate">Doctorate</option>
+              <option value="other">Other</option>
+            </select>
+          </div>
+          <!-- Submit Button -->
+          <button type="submit" class="w-full bg-blue-600 text-white py-4 rounded-lg font-medium text-lg hover:bg-blue-700">Submit Details</button>
+        </form>
+      </div>
     </div>
   </div>
 
