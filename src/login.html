@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Sign Up</title>
+  <title>Login</title>
   <script src="https://cdn.tailwindcss.com"></script>
   <script>
     tailwind.config = {
@@ -30,24 +30,24 @@
 </head>
 <body class="bg-gray-100 text-gray-900 font-sans">
 
-  <!-- Sign Up Container -->
+  <!-- Login Container -->
   <div class="min-h-screen flex items-center justify-center px-4 py-8">
     <div class="bg-white shadow-lg rounded-lg w-full max-w-xl overflow-hidden">
       
       <!-- Header Section -->
       <div class="bg-babyPink-500 text-white text-center py-6">
-        <h1 class="text-3xl font-bold">Join InsightEdge</h1>
-        <p class="text-lg mt-2">Start your journey with personalized financial insights</p>
+        <h1 class="text-3xl font-bold">Welcome Back to InsightEdge</h1>
+        <p class="text-lg mt-2">Log in to access your personalized dashboard</p>
       </div>
 
       <!-- Form Section -->
       <div class="p-8">
-        <h2 class="text-2xl font-semibold mb-6 text-center">Sign Up</h2>
+        <h2 class="text-2xl font-semibold mb-6 text-center">Log In</h2>
         <form action="#" class="space-y-6">
-          <!-- Email -->
+          <!-- Username -->
           <div>
-            <label for="email" class="block font-medium text-gray-700 mb-2">Email</label>
-            <input type="email" id="email" class="w-full border-gray-300 rounded-lg px-4 py-3 text-lg focus:ring-2 focus:ring-babyPink-500 focus:outline-none" placeholder="Enter your email">
+            <label for="username" class="block font-medium text-gray-700 mb-2">Username</label>
+            <input type="text" id="username" class="w-full border-gray-300 rounded-lg px-4 py-3 text-lg focus:ring-2 focus:ring-babyPink-500 focus:outline-none" placeholder="Enter your username">
           </div>
 
           <!-- Password -->
@@ -56,30 +56,15 @@
             <input type="password" id="password" class="w-full border-gray-300 rounded-lg px-4 py-3 text-lg focus:ring-2 focus:ring-babyPink-500 focus:outline-none" placeholder="Enter your password">
           </div>
 
-          <!-- Looking For Options -->
-          <div>
-            <label class="block font-medium text-gray-700 mb-2">Looking for?</label>
-            <div class="flex space-x-6">
-              <label class="flex items-center text-lg">
-                <input type="radio" name="looking_for" value="Budget" class="form-radio text-babyPink-500">
-                <span class="ml-2">Budgeting</span>
-              </label>
-              <label class="flex items-center text-lg">
-                <input type="radio" name="looking_for" value="Investment" class="form-radio text-babyPink-500">
-                <span class="ml-2">Investment Portfolio</span>
-              </label>
-            </div>
-          </div>
-
-          <!-- Submit Button -->
-          <button type="submit" class="w-full bg-babyPink-500 text-white py-4 rounded-lg text-lg font-medium hover:bg-babyPink-600">Create Account</button>
+          <!-- Login Button -->
+          <button type="submit" class="w-full bg-babyPink-500 text-white py-4 rounded-lg text-lg font-medium hover:bg-babyPink-600">Log In</button>
         </form>
       </div>
 
       <!-- Footer Section -->
       <div class="bg-gray-50 text-center py-4">
-        <p class="text-gray-700 text-sm">Already have an account? 
-          <a href="#" class="text-babyPink-500 font-medium hover:underline">Login</a>
+        <p class="text-gray-700 text-sm">Don't have an account? 
+          <a href="signup.html" class="text-babyPink-500 font-medium hover:underline">Sign Up</a>
         </p>
       </div>
 
