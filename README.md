@@ -1,6 +1,5 @@
 # Insight Edge
 
-
 ## Features
 
 - Describe your website [Fill this]
@@ -95,45 +94,6 @@ c) Run app
 
 ```md
 uvicorn app.main:app --reload
-```
-
-
-c) Frontend
-
-1. Downloading node modules in the frontend
-
-```md
-npm install
-```
-
-2. Start the expo project
-
-```md
-npm start
-```
-
-d) Create an APK File
-
-1. Install Expo CLI Globally (if not already installed)
-
-```md
-npm install -g expo-cli
-```
-
-2. Log in to Expo
-
-Ensure you have an Expo account and are logged in.
-
-```md
-expo login
-```
-
-3. Build the APK
-
-Initiate the build process for an Android APK:
-
-```md
-expo build:android
 ```
 
 

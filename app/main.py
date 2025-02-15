@@ -3,7 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi import FastAPI
 from fastapi.staticfiles import StaticFiles
 from fastapi.templating import Jinja2Templates
-from .routers import auth, profile,social_auth,root,docs
+from .routers import auth, profile,social_auth,root,docs,finance,dashboard
 from .config import description, title
 from .analytics import metrics
 
@@ -42,4 +42,6 @@ app.include_router(auth.router)
 app.include_router(social_auth.router)
 app.include_router(profile.router)
 app.include_router(metrics.router)
+app.include_router(dashboard.dashboard_router)
+app.include_router(finance.financial_router)
 templates = Jinja2Templates(directory="templates")
