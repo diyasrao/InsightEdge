@@ -57,9 +57,15 @@
           </div>
 
           <!-- Login Button -->
-          <button type="submit" class="w-full bg-babyPink-500 text-white py-4 rounded-lg text-lg font-medium hover:bg-babyPink-600">Log In</button>
-        </form>
-      </div>
+    <button type="button" onclick="redirectToDashboard()" class="w-full bg-babyPink-500 text-white py-4 rounded-lg text-lg font-medium hover:bg-babyPink-600">Log In</button>
+  </form>
+</div>
+
+<script>
+  function redirectToDashboard() {
+    window.location.href = "dashboard.html";
+  }
+</script>
 
       <!-- Footer Section -->
       <div class="bg-gray-50 text-center py-4">
