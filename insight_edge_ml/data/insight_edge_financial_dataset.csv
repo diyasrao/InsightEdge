@@ -1,0 +1,839 @@
+User_ID,Monthly_Income,Household_Size,Age,Occupation,Education_Level,Current_Savings,Existing_Loans_Debts,Suggested_Monthly_Savings,Risk_Tolerance_Level,Best_Investment_Plan
+U1,17795,5,55,Self-employed,Secondary,362462,499632,3559,Low,Fixed Deposit
+U2,2860,5,30,Self-employed,Secondary,394597,365735,572,Low,Government Bonds
+U3,78820,6,42,Salaried,Higher,459850,141650,15764,High,Gold
+U4,56886,2,26,Self-employed,Secondary,281954,131060,11377,High,Gold
+U5,8265,3,21,Daily Wage,No Education,249415,149696,1653,Low,Fixed Deposit
+U6,84386,3,31,Daily Wage,No Education,155394,301338,16877,Low,Fixed Deposit
+U7,39194,6,54,Salaried,Secondary,41869,372047,7838,Low,Government Bonds
+U8,89498,4,51,Daily Wage,No Education,32955,393605,17899,Low,Fixed Deposit
+U9,46131,2,28,Daily Wage,Higher,61388,361447,9226,Low,Government Bonds
+U10,62263,6,58,Self-employed,No Education,241324,242188,12452,Medium,Mutual Funds
+U11,18023,2,20,Daily Wage,Higher,10207,376047,3604,Low,Fixed Deposit
+U12,43090,2,45,Salaried,Primary,218401,329535,8618,Low,Government Bonds
+U13,69221,2,46,Self-employed,Primary,460844,237501,13844,Medium,Mutual Funds
+U14,66820,6,26,Unemployed,Primary,159292,407010,13364,Low,Fixed Deposit
+U15,2769,3,20,Self-employed,Primary,477266,320146,553,Low,Fixed Deposit
+U16,61735,3,42,Salaried,No Education,496762,297675,12347,Medium,Gold
+U17,64955,2,51,Self-employed,Secondary,205157,183887,12991,High,Real Estate
+U18,66925,4,29,Self-employed,No Education,22031,4986,13385,High,Real Estate
+U19,69969,1,59,Salaried,Higher,463937,294442,13993,Medium,Gold
+U20,7311,6,26,Self-employed,No Education,342951,263625,1462,Low,Fixed Deposit
+U21,85104,1,32,Salaried,No Education,71312,318552,17020,Low,Fixed Deposit
+U22,55707,4,57,Salaried,Higher,59766,200339,11141,Medium,Mutual Funds
+U23,87305,6,42,Unemployed,Primary,143521,121950,17461,High,Real Estate
+U24,30693,2,22,Daily Wage,Primary,351977,410051,6138,Low,Fixed Deposit
+U25,73932,3,28,Daily Wage,Primary,187771,125355,14786,High,Gold
+U26,95016,1,51,Self-employed,Secondary,237199,27798,19003,High,Gold
+U27,27658,5,41,Self-employed,Higher,474469,91649,5531,Medium,Mutual Funds
+U28,86478,5,32,Unemployed,Higher,236731,327031,17295,Low,Fixed Deposit
+U29,20431,4,55,Unemployed,No Education,235841,19477,4086,Medium,Mutual Funds
+U30,4747,2,25,Unemployed,Secondary,111041,410482,949,Low,Government Bonds
+U31,61150,1,22,Salaried,Primary,116185,217400,12230,Medium,Gold
+U32,67725,2,43,Unemployed,Secondary,177164,217060,13545,Medium,Mutual Funds
+U33,86654,1,35,Unemployed,Higher,456887,389959,17330,Low,Fixed Deposit
+U34,37773,4,23,Self-employed,Higher,10350,436742,7554,Low,Government Bonds
+U35,69435,4,54,Unemployed,No Education,227230,389570,13887,Low,Fixed Deposit
+U36,58886,5,30,Salaried,No Education,363003,405105,11777,Low,Government Bonds
+U37,68803,2,45,Salaried,Higher,261570,286479,13760,Medium,Gold
+U38,33551,6,22,Self-employed,Primary,68487,404470,6710,Low,Fixed Deposit
+U39,13394,5,30,Unemployed,Primary,148694,348754,2678,Low,Government Bonds
+U40,71092,2,34,Unemployed,Secondary,123853,273586,14218,Medium,Mutual Funds
+U41,5890,5,57,Salaried,Higher,463479,308433,1178,Low,Fixed Deposit
+U42,43606,6,49,Unemployed,Higher,315261,315891,8721,Low,Fixed Deposit
+U43,98276,3,46,Unemployed,Primary,235062,299471,19655,Medium,Mutual Funds
+U44,82038,3,20,Unemployed,Primary,451610,409415,16407,Low,Fixed Deposit
+U45,89313,3,57,Daily Wage,Higher,233077,334971,17862,Low,Fixed Deposit
+U46,12627,3,51,Self-employed,No Education,363228,106464,2525,Low,Government Bonds
+U47,10792,1,57,Daily Wage,Higher,23782,131184,2158,Low,Government Bonds
+U48,75969,3,44,Self-employed,Higher,290598,87051,15193,High,Gold
+U49,45001,6,30,Salaried,Primary,330048,150653,9000,Medium,Gold
+U50,78552,4,50,Unemployed,Primary,129936,245300,15710,Medium,Mutual Funds
+U51,25897,4,23,Self-employed,No Education,408808,59722,5179,Medium,Gold
+U52,70148,1,41,Daily Wage,No Education,153245,92036,14029,High,Gold
+U53,25483,3,36,Unemployed,Secondary,426420,228634,5096,Medium,Gold
+U54,50555,3,33,Salaried,Higher,428812,147595,10111,High,Real Estate
+U55,19159,3,57,Self-employed,Primary,427540,329104,3831,Low,Government Bonds
+U56,82077,5,45,Self-employed,No Education,122258,248709,16415,Medium,Mutual Funds
+U57,37920,2,50,Self-employed,Secondary,111668,281696,7584,Medium,Gold
+U58,94067,5,58,Unemployed,Secondary,454418,141880,18813,High,Real Estate
+U59,69121,2,30,Daily Wage,Primary,482616,235419,13824,Medium,Mutual Funds
+U60,71479,3,60,Daily Wage,Primary,386328,465741,14295,Low,Government Bonds
+U61,91475,3,42,Self-employed,Secondary,423966,154692,18295,High,Real Estate
+U62,21457,5,59,Salaried,No Education,469328,497781,4291,Low,Fixed Deposit
+U63,68557,5,53,Salaried,Secondary,278710,263031,13711,Medium,Gold
+U64,79189,2,44,Daily Wage,Higher,138262,293946,15837,Medium,Gold
+U65,80953,4,55,Salaried,Higher,481823,85024,16190,High,Gold
+U66,54995,2,24,Daily Wage,Primary,38333,488765,10999,Low,Fixed Deposit
+U67,42757,5,22,Self-employed,No Education,384073,245809,8551,Medium,Mutual Funds
+U68,11692,6,60,Daily Wage,No Education,211977,118639,2338,Low,Fixed Deposit
+U69,47758,5,48,Daily Wage,Higher,89571,380392,9551,Low,Government Bonds
+U70,74409,6,40,Self-employed,Secondary,120263,81938,14881,High,Real Estate
+U71,73211,1,59,Salaried,Primary,394805,217813,14642,Medium,Mutual Funds
+U72,67697,5,27,Daily Wage,Secondary,25235,252100,13539,Medium,Mutual Funds
+U73,39065,1,49,Daily Wage,Secondary,159,384890,7813,Low,Fixed Deposit
+U74,94093,4,60,Self-employed,Secondary,143217,288193,18818,Medium,Mutual Funds
+U75,34606,2,47,Salaried,No Education,474125,339933,6921,Low,Fixed Deposit
+U76,13534,6,56,Daily Wage,Higher,162993,84526,2706,Low,Fixed Deposit
+U77,96663,2,48,Self-employed,No Education,367003,401062,19332,Low,Government Bonds
+U78,42397,1,35,Daily Wage,Higher,147309,483779,8479,Low,Government Bonds
+U79,93387,6,53,Unemployed,Primary,107507,497952,18677,Low,Government Bonds
+U80,3016,2,19,Self-employed,Primary,401460,46220,603,Low,Fixed Deposit
+U81,91789,5,31,Salaried,Secondary,14743,308307,18357,Low,Fixed Deposit
+U82,57591,3,30,Salaried,Higher,228174,396981,11518,Low,Government Bonds
+U83,91812,1,46,Salaried,Higher,46101,379270,18362,Low,Fixed Deposit
+U84,25247,2,29,Salaried,Higher,242717,343630,5049,Low,Government Bonds
+U85,26300,1,56,Daily Wage,Secondary,121534,438486,5260,Low,Fixed Deposit
+U86,76065,1,19,Daily Wage,Secondary,346371,75277,15213,High,Real Estate
+U87,84798,6,49,Salaried,Primary,230604,481494,16959,Low,Government Bonds
+U88,11268,6,30,Salaried,No Education,187450,483455,2253,Low,Government Bonds
+U89,88807,3,44,Salaried,Higher,333270,366389,17761,Low,Government Bonds
+U90,14185,5,58,Daily Wage,Higher,318215,122332,2837,Low,Government Bonds
+U91,65704,1,34,Salaried,No Education,202193,234231,13140,Medium,Gold
+U92,88779,2,57,Salaried,Higher,336907,22931,17755,High,Real Estate
+U93,41099,4,48,Unemployed,Secondary,487030,89116,8219,Medium,Mutual Funds
+U94,10571,1,51,Unemployed,Secondary,235422,251671,2114,Low,Fixed Deposit
+U95,40044,1,41,Salaried,Higher,405453,317777,8008,Low,Government Bonds
+U96,53214,3,52,Self-employed,Secondary,146721,473918,10642,Low,Government Bonds
+U97,63228,5,23,Salaried,Secondary,168785,51913,12645,High,Gold
+U98,50984,4,36,Unemployed,Higher,204535,250216,10196,Medium,Gold
+U99,42774,6,47,Self-employed,Primary,176481,94776,8554,Medium,Gold
+U100,4568,6,24,Self-employed,No Education,179838,25991,913,Low,Government Bonds
+U101,64592,2,27,Salaried,Secondary,46154,185917,12918,High,Real Estate
+U102,69563,4,58,Unemployed,Primary,269160,104092,13912,High,Real Estate
+U103,4695,6,49,Unemployed,Secondary,472779,229577,939,Low,Fixed Deposit
+U104,50190,2,51,Self-employed,Secondary,441904,186384,10038,High,Real Estate
+U105,7258,5,45,Salaried,No Education,351822,403777,1451,Low,Fixed Deposit
+U106,89538,2,32,Daily Wage,Secondary,374200,410117,17907,Low,Government Bonds
+U107,41504,6,47,Daily Wage,No Education,54238,237113,8300,Medium,Gold
+U108,35159,3,54,Unemployed,No Education,320752,95556,7031,Medium,Gold
+U109,15986,3,46,Daily Wage,No Education,89081,325019,3197,Low,Government Bonds
+U110,63858,3,39,Unemployed,Primary,247644,156989,12771,High,Gold
+U111,14666,6,21,Unemployed,Higher,425113,324264,2933,Low,Government Bonds
+U112,40660,3,37,Unemployed,Primary,313105,395204,8132,Low,Fixed Deposit
+U113,5561,4,49,Daily Wage,Higher,199775,372185,1112,Low,Government Bonds
+U114,28854,5,53,Unemployed,Higher,437973,128467,5770,Medium,Gold
+U115,66505,2,21,Self-employed,No Education,289061,407472,13301,Low,Government Bonds
+U116,54251,2,44,Salaried,Secondary,415952,380634,10850,Low,Government Bonds
+U117,24662,6,34,Salaried,No Education,290134,218800,4932,Medium,Mutual Funds
+U118,10392,3,29,Unemployed,Secondary,62551,126155,2078,Low,Fixed Deposit
+U119,32535,3,39,Salaried,Higher,451377,290374,6507,Medium,Gold
+U120,80603,1,34,Daily Wage,No Education,210695,498682,16120,Low,Fixed Deposit
+U121,54256,5,27,Daily Wage,Secondary,153512,59778,10851,High,Real Estate
+U122,91135,4,18,Salaried,Primary,166277,45833,18227,High,Gold
+U123,37222,2,39,Daily Wage,Secondary,80811,284769,7444,Medium,Gold
+U124,79373,1,43,Salaried,No Education,254840,32088,15874,High,Gold
+U125,81575,1,35,Salaried,Primary,317247,210722,16315,Medium,Gold
+U126,98354,6,31,Salaried,Secondary,464028,434383,19670,Low,Government Bonds
+U127,86651,2,46,Unemployed,Secondary,434843,366081,17330,Low,Fixed Deposit
+U128,65335,6,29,Salaried,Secondary,368266,464507,13067,Low,Government Bonds
+U129,12965,4,53,Unemployed,Secondary,234104,196375,2593,Low,Government Bonds
+U130,26538,1,52,Salaried,Secondary,19008,76361,5307,Medium,Gold
+U131,72592,1,29,Salaried,Primary,202346,350373,14518,Low,Fixed Deposit
+U132,10110,5,24,Salaried,Higher,32402,135189,2022,Low,Government Bonds
+U133,81309,4,46,Daily Wage,Primary,184456,90265,16261,High,Gold
+U134,29266,1,28,Unemployed,Primary,259994,97718,5853,Medium,Gold
+U135,54992,4,50,Unemployed,Primary,399009,322854,10998,Low,Fixed Deposit
+U136,84948,2,23,Salaried,Higher,496043,487642,16989,Low,Government Bonds
+U137,8910,3,32,Salaried,No Education,136643,94876,1782,Low,Government Bonds
+U138,92982,1,49,Daily Wage,Higher,490083,460270,18596,Low,Government Bonds
+U139,2206,5,28,Daily Wage,Primary,409425,30949,441,Low,Fixed Deposit
+U140,89054,2,40,Daily Wage,Secondary,113550,415763,17810,Low,Government Bonds
+U141,89897,4,43,Unemployed,Secondary,484146,212954,17979,Medium,Gold
+U142,25419,6,51,Unemployed,Primary,436364,330280,5083,Low,Government Bonds
+U143,52636,2,51,Unemployed,Secondary,91218,111541,10527,High,Real Estate
+U144,52015,1,46,Salaried,Primary,133296,195691,10403,High,Gold
+U145,56268,4,21,Unemployed,Secondary,499909,61842,11253,High,Gold
+U146,89939,3,34,Self-employed,Higher,179767,488019,17987,Low,Government Bonds
+U147,20141,2,52,Self-employed,No Education,382923,232930,4028,Medium,Mutual Funds
+U148,82356,1,30,Daily Wage,No Education,391858,289134,16471,Medium,Mutual Funds
+U149,73910,5,58,Unemployed,Higher,241060,147265,14782,High,Gold
+U150,58044,6,56,Self-employed,Higher,240016,292253,11608,Medium,Mutual Funds
+U151,69214,4,32,Daily Wage,Primary,32441,130356,13842,High,Real Estate
+U152,35827,2,46,Unemployed,Primary,238038,412449,7165,Low,Fixed Deposit
+U153,57820,2,46,Salaried,Primary,170201,244629,11564,Medium,Gold
+U154,64623,3,28,Self-employed,Secondary,231324,212802,12924,Medium,Gold
+U155,83734,3,49,Salaried,Primary,324512,390277,16746,Low,Fixed Deposit
+U156,77450,5,19,Unemployed,Higher,92122,165582,15490,High,Real Estate
+U157,95426,6,31,Self-employed,No Education,44760,263450,19085,Medium,Mutual Funds
+U158,24299,5,37,Unemployed,Secondary,285622,3849,4859,Medium,Gold
+U159,45585,1,39,Salaried,Primary,390025,12360,9117,Medium,Gold
+U160,66044,1,28,Self-employed,Secondary,333998,373216,13208,Low,Fixed Deposit
+U161,44557,5,44,Salaried,Secondary,356374,253279,8911,Medium,Mutual Funds
+U162,51080,6,20,Unemployed,Primary,347860,94767,10216,High,Real Estate
+U163,4693,5,34,Unemployed,Secondary,143252,261445,938,Low,Fixed Deposit
+U164,97003,6,45,Salaried,No Education,98538,176872,19400,High,Gold
+U165,97259,6,46,Self-employed,Higher,15372,430179,19451,Low,Fixed Deposit
+U166,71163,4,38,Salaried,Higher,291940,54330,14232,High,Gold
+U167,27939,6,33,Unemployed,No Education,451488,51707,5587,Medium,Mutual Funds
+U168,50925,3,54,Salaried,Secondary,221035,280833,10185,Medium,Mutual Funds
+U169,44941,6,37,Unemployed,Primary,360970,29084,8988,Medium,Mutual Funds
+U170,23834,6,23,Salaried,Secondary,382736,40387,4766,Medium,Mutual Funds
+U171,20047,6,36,Self-employed,No Education,355779,336960,4009,Low,Fixed Deposit
+U172,28105,1,22,Self-employed,Secondary,111022,2642,5621,Medium,Gold
+U173,77766,3,20,Salaried,Higher,54040,304281,15553,Low,Fixed Deposit
+U174,17707,3,18,Salaried,Secondary,337501,473048,3541,Low,Fixed Deposit
+U175,23976,5,55,Self-employed,No Education,202440,186633,4795,Medium,Mutual Funds
+U176,46262,4,32,Unemployed,Higher,78356,324404,9252,Low,Government Bonds
+U177,25776,6,51,Self-employed,Secondary,278355,146510,5155,Medium,Gold
+U178,32080,2,52,Unemployed,Secondary,367570,310586,6416,Low,Government Bonds
+U179,68842,4,42,Salaried,Higher,267986,365205,13768,Low,Government Bonds
+U180,63373,4,41,Salaried,Primary,456331,396210,12674,Low,Fixed Deposit
+U181,8776,3,29,Unemployed,Higher,328996,254511,1755,Low,Fixed Deposit
+U182,94787,4,35,Salaried,Primary,387881,387988,18957,Low,Fixed Deposit
+U183,57016,6,32,Unemployed,No Education,308112,361719,11403,Low,Government Bonds
+U184,11474,6,33,Daily Wage,No Education,279652,263957,2294,Low,Fixed Deposit
+U185,60053,1,44,Self-employed,Higher,153077,355171,12010,Low,Fixed Deposit
+U186,23959,6,25,Daily Wage,Higher,54575,385633,4791,Low,Government Bonds
+U187,7530,6,42,Unemployed,No Education,473958,84381,1506,Low,Government Bonds
+U188,96856,3,34,Self-employed,Primary,150043,249880,19371,Medium,Gold
+U189,5748,6,46,Unemployed,No Education,418815,317420,1149,Low,Fixed Deposit
+U190,99504,1,25,Self-employed,Higher,480808,303387,19900,Low,Fixed Deposit
+U191,15545,2,32,Self-employed,No Education,66914,193984,3109,Low,Government Bonds
+U192,68199,3,44,Self-employed,Higher,249134,60272,13639,High,Real Estate
+U193,36766,2,24,Self-employed,Higher,67055,495916,7353,Low,Government Bonds
+U194,75530,3,20,Unemployed,No Education,87697,173123,15106,High,Gold
+U195,95557,5,46,Self-employed,Primary,106239,472070,19111,Low,Fixed Deposit
+U196,63087,4,41,Self-employed,Secondary,235469,213808,12617,Medium,Gold
+U197,97839,5,20,Daily Wage,No Education,123106,253091,19567,Medium,Gold
+U198,70840,6,37,Salaried,Secondary,267499,327762,14168,Low,Government Bonds
+U199,56384,2,32,Salaried,No Education,316264,264064,11276,Medium,Mutual Funds
+U200,53005,6,42,Daily Wage,Secondary,467835,106121,10601,High,Gold
+U201,48576,4,47,Daily Wage,Primary,300486,470435,9715,Low,Government Bonds
+U202,41353,3,31,Unemployed,Primary,479208,76872,8270,Medium,Gold
+U203,64003,4,24,Unemployed,No Education,472076,343276,12800,Low,Government Bonds
+U204,85211,1,34,Unemployed,Higher,2257,264237,17042,Medium,Gold
+U205,54733,4,37,Daily Wage,Secondary,289508,275049,10946,Medium,Gold
+U206,67318,1,53,Daily Wage,Higher,156044,121759,13463,High,Gold
+U207,91474,4,26,Self-employed,Higher,111715,417567,18294,Low,Fixed Deposit
+U208,25664,1,55,Unemployed,Higher,26654,293125,5132,Medium,Mutual Funds
+U209,69172,2,39,Unemployed,Primary,211841,336047,13834,Low,Government Bonds
+U210,87616,6,19,Unemployed,No Education,343567,332965,17523,Low,Fixed Deposit
+U211,95264,6,41,Salaried,No Education,291464,371344,19052,Low,Fixed Deposit
+U212,28736,5,25,Self-employed,Primary,20808,496457,5747,Low,Government Bonds
+U213,96209,6,28,Unemployed,Primary,52389,82289,19241,High,Real Estate
+U214,2854,3,30,Unemployed,No Education,488906,116506,570,Low,Government Bonds
+U215,92084,4,34,Unemployed,Higher,118581,477237,18416,Low,Government Bonds
+U216,40623,5,25,Salaried,Secondary,127927,78513,8124,Medium,Gold
+U217,9392,3,38,Salaried,Secondary,34773,413090,1878,Low,Government Bonds
+U218,57680,3,35,Daily Wage,Secondary,182240,182003,11536,High,Gold
+U219,48717,1,47,Self-employed,Higher,420963,400890,9743,Low,Fixed Deposit
+U220,89092,6,35,Daily Wage,No Education,338540,312660,17818,Low,Government Bonds
+U221,52859,2,48,Self-employed,Primary,369836,259480,10571,Medium,Mutual Funds
+U222,28309,2,55,Salaried,No Education,214764,262043,5661,Medium,Gold
+U223,89455,5,49,Unemployed,Higher,57505,487790,17891,Low,Government Bonds
+U224,65734,2,28,Daily Wage,Primary,348040,191758,13146,High,Gold
+U225,72467,4,42,Unemployed,Higher,18135,488067,14493,Low,Fixed Deposit
+U226,54662,2,50,Daily Wage,Secondary,90887,331356,10932,Low,Government Bonds
+U227,14688,5,55,Salaried,Secondary,122118,133498,2937,Low,Government Bonds
+U228,27342,2,58,Salaried,Higher,489251,254024,5468,Medium,Gold
+U229,39157,4,25,Salaried,Primary,309521,130970,7831,Medium,Gold
+U230,69863,1,28,Daily Wage,Primary,154626,90009,13972,High,Real Estate
+U231,54083,5,39,Self-employed,No Education,324635,199570,10816,High,Gold
+U232,67733,1,41,Daily Wage,Secondary,448837,423159,13546,Low,Fixed Deposit
+U233,91045,1,58,Self-employed,No Education,245739,197467,18209,High,Gold
+U234,36698,1,34,Daily Wage,No Education,320427,44816,7339,Medium,Mutual Funds
+U235,82623,3,29,Daily Wage,Higher,478356,4138,16524,High,Real Estate
+U236,24671,6,49,Salaried,Higher,279067,493944,4934,Low,Government Bonds
+U237,27184,3,32,Unemployed,No Education,309735,91176,5436,Medium,Gold
+U238,95384,6,33,Unemployed,Secondary,62261,338089,19076,Low,Fixed Deposit
+U239,44107,1,39,Self-employed,Higher,316480,266161,8821,Medium,Gold
+U240,88202,5,45,Unemployed,No Education,336227,272595,17640,Medium,Gold
+U241,53663,6,37,Daily Wage,No Education,60948,194028,10732,High,Gold
+U242,17708,4,50,Daily Wage,No Education,240891,356007,3541,Low,Fixed Deposit
+U243,93906,4,27,Salaried,No Education,164074,272422,18781,Medium,Gold
+U244,51811,2,57,Salaried,No Education,473314,221552,10362,Medium,Gold
+U245,4811,6,49,Unemployed,No Education,466232,43764,962,Low,Government Bonds
+U246,58250,5,50,Self-employed,Higher,288816,123030,11650,High,Real Estate
+U247,74082,3,19,Unemployed,Secondary,266357,394350,14816,Low,Government Bonds
+U248,36754,1,50,Unemployed,No Education,141365,325087,7350,Low,Fixed Deposit
+U249,97742,2,50,Unemployed,Primary,493193,95667,19548,High,Gold
+U250,13411,4,58,Unemployed,Higher,449076,316462,2682,Low,Fixed Deposit
+U251,4911,3,30,Daily Wage,Higher,62507,365567,982,Low,Government Bonds
+U252,69270,3,47,Self-employed,No Education,57134,366142,13854,Low,Government Bonds
+U253,85763,1,50,Daily Wage,Higher,133172,60128,17152,High,Real Estate
+U254,10680,6,30,Self-employed,No Education,241225,219128,2136,Low,Fixed Deposit
+U255,86896,4,43,Salaried,Secondary,193069,284013,17379,Medium,Mutual Funds
+U256,85879,5,39,Unemployed,Secondary,290316,233540,17175,Medium,Gold
+U257,73295,3,56,Daily Wage,Higher,282276,5039,14659,High,Gold
+U258,90614,1,19,Self-employed,Higher,248933,152353,18122,High,Gold
+U259,13111,5,55,Salaried,Primary,280343,112935,2622,Low,Government Bonds
+U260,39504,6,56,Salaried,Higher,36609,10442,7900,Medium,Mutual Funds
+U261,3802,4,43,Unemployed,Primary,174037,335932,760,Low,Government Bonds
+U262,10155,6,32,Self-employed,Secondary,139088,381873,2031,Low,Government Bonds
+U263,75656,3,51,Daily Wage,Secondary,432995,289730,15131,Medium,Gold
+U264,41384,5,59,Unemployed,No Education,496013,53053,8276,Medium,Gold
+U265,49254,5,57,Daily Wage,Secondary,294025,181561,9850,Medium,Gold
+U266,23918,5,28,Salaried,Primary,213666,214176,4783,Medium,Gold
+U267,87981,3,20,Daily Wage,Higher,286616,86346,17596,High,Gold
+U268,62713,3,23,Daily Wage,No Education,493678,329231,12542,Low,Fixed Deposit
+U269,32306,6,26,Unemployed,Primary,182885,405841,6461,Low,Government Bonds
+U270,18646,2,23,Daily Wage,Higher,231440,34397,3729,Low,Government Bonds
+U271,48843,6,26,Unemployed,No Education,257803,320815,9768,Low,Government Bonds
+U272,98601,4,56,Salaried,Secondary,167093,116214,19720,High,Gold
+U273,92735,1,48,Unemployed,Primary,316275,485001,18547,Low,Fixed Deposit
+U274,18371,5,49,Unemployed,Higher,155159,329041,3674,Low,Fixed Deposit
+U275,79371,2,58,Self-employed,No Education,12828,157221,15874,High,Real Estate
+U276,4049,1,29,Daily Wage,No Education,454826,453246,809,Low,Fixed Deposit
+U277,33616,2,25,Salaried,Secondary,358808,463122,6723,Low,Fixed Deposit
+U278,22932,6,25,Unemployed,Higher,132473,398499,4586,Low,Fixed Deposit
+U279,31855,3,45,Salaried,Secondary,478395,400826,6371,Low,Government Bonds
+U280,63434,5,37,Self-employed,Secondary,277337,436542,12686,Low,Fixed Deposit
+U281,74694,6,24,Daily Wage,Higher,223461,277068,14938,Medium,Mutual Funds
+U282,45016,1,28,Unemployed,Higher,438080,113143,9003,Medium,Gold
+U283,9400,1,37,Daily Wage,Higher,413523,372397,1880,Low,Fixed Deposit
+U284,44642,1,33,Self-employed,Primary,364662,469378,8928,Low,Government Bonds
+U285,17151,1,21,Self-employed,Higher,281755,362441,3430,Low,Government Bonds
+U286,53407,1,23,Salaried,No Education,174863,263013,10681,Medium,Mutual Funds
+U287,68690,2,39,Unemployed,Secondary,405166,359232,13738,Low,Government Bonds
+U288,6499,6,43,Salaried,Primary,338384,263158,1299,Low,Fixed Deposit
+U289,8295,5,20,Self-employed,Higher,239719,10103,1659,Low,Fixed Deposit
+U290,61040,3,58,Daily Wage,Primary,208475,475738,12208,Low,Government Bonds
+U291,14183,3,59,Salaried,Higher,264889,372461,2836,Low,Government Bonds
+U292,31299,6,31,Salaried,Primary,317387,489223,6259,Low,Fixed Deposit
+U293,14874,6,28,Daily Wage,Secondary,266010,426674,2974,Low,Government Bonds
+U294,34711,3,35,Salaried,Secondary,163317,483821,6942,Low,Government Bonds
+U295,7539,3,29,Daily Wage,No Education,437940,82409,1507,Low,Fixed Deposit
+U296,55351,2,40,Unemployed,No Education,390825,23248,11070,High,Real Estate
+U297,63267,4,29,Daily Wage,Higher,71354,482376,12653,Low,Government Bonds
+U298,50354,5,30,Unemployed,Secondary,51374,174588,10070,High,Real Estate
+U299,4557,1,42,Daily Wage,Primary,114397,422277,911,Low,Fixed Deposit
+U300,40360,4,36,Self-employed,Primary,248552,155242,8072,Medium,Mutual Funds
+U301,84018,6,53,Self-employed,Primary,386721,8024,16803,High,Real Estate
+U302,4200,3,25,Unemployed,No Education,423332,475430,840,Low,Fixed Deposit
+U303,70497,4,46,Unemployed,Primary,343173,234864,14099,Medium,Mutual Funds
+U304,48975,5,49,Self-employed,No Education,355718,348091,9795,Low,Fixed Deposit
+U305,23357,6,35,Unemployed,No Education,413663,174875,4671,Medium,Gold
+U306,79505,1,23,Daily Wage,Higher,292575,412512,15901,Low,Fixed Deposit
+U307,4869,1,35,Daily Wage,Primary,411124,353973,973,Low,Government Bonds
+U308,63135,5,36,Self-employed,Primary,29336,354852,12627,Low,Government Bonds
+U309,52108,5,39,Salaried,Secondary,303136,348808,10421,Low,Government Bonds
+U310,96179,3,54,Daily Wage,Higher,55350,411473,19235,Low,Fixed Deposit
+U311,92272,1,49,Unemployed,Secondary,69561,143927,18454,High,Real Estate
+U312,40467,6,58,Salaried,Higher,314099,85178,8093,Medium,Gold
+U313,25328,4,20,Salaried,Primary,61240,363265,5065,Low,Fixed Deposit
+U314,93412,6,45,Daily Wage,No Education,151165,282169,18682,Medium,Gold
+U315,88831,2,27,Daily Wage,No Education,399371,397674,17766,Low,Fixed Deposit
+U316,5987,2,52,Salaried,No Education,46607,63610,1197,Low,Fixed Deposit
+U317,60871,5,46,Salaried,No Education,426703,70843,12174,High,Gold
+U318,24399,3,32,Self-employed,No Education,186740,107237,4879,Medium,Gold
+U319,48214,2,50,Unemployed,Secondary,414179,477177,9642,Low,Government Bonds
+U320,88416,1,24,Self-employed,Higher,181196,180903,17683,High,Real Estate
+U321,72271,6,29,Daily Wage,Primary,315014,174499,14454,High,Gold
+U322,46064,6,47,Self-employed,Secondary,449763,487025,9212,Low,Fixed Deposit
+U323,72091,5,38,Self-employed,Higher,64110,130299,14418,High,Real Estate
+U324,42818,4,48,Self-employed,No Education,184626,431722,8563,Low,Fixed Deposit
+U325,47525,5,41,Self-employed,Higher,152008,5668,9505,Medium,Gold
+U326,21830,4,37,Unemployed,Higher,379039,222542,4366,Medium,Gold
+U327,19429,5,54,Unemployed,No Education,4426,178267,3885,Low,Government Bonds
+U328,8893,5,21,Salaried,No Education,219911,335377,1778,Low,Fixed Deposit
+U329,81909,5,45,Daily Wage,No Education,289750,155489,16381,High,Real Estate
+U330,49333,4,37,Self-employed,Primary,441048,344126,9866,Low,Government Bonds
+U331,5436,4,41,Salaried,No Education,28151,106133,1087,Low,Fixed Deposit
+U332,76290,5,49,Salaried,Primary,472519,272895,15258,Medium,Mutual Funds
+U333,78213,2,58,Salaried,No Education,273452,308362,15642,Low,Government Bonds
+U334,7895,3,53,Unemployed,Primary,240853,388793,1579,Low,Government Bonds
+U335,21738,3,51,Self-employed,Higher,455738,269496,4347,Medium,Gold
+U336,32746,3,53,Self-employed,Secondary,254595,210124,6549,Medium,Mutual Funds
+U337,51377,4,19,Daily Wage,Higher,176743,88835,10275,High,Real Estate
+U338,50404,4,32,Self-employed,Higher,90306,97493,10080,High,Real Estate
+U339,56045,2,51,Self-employed,No Education,225180,291071,11209,Medium,Mutual Funds
+U340,99888,3,53,Salaried,Primary,369128,172166,19977,High,Real Estate
+U341,41790,3,23,Daily Wage,Secondary,2204,101948,8358,Medium,Gold
+U342,7600,5,56,Self-employed,No Education,92769,185194,1520,Low,Fixed Deposit
+U343,96660,4,59,Unemployed,No Education,87265,29493,19332,High,Real Estate
+U344,95179,3,29,Self-employed,No Education,293275,485463,19035,Low,Fixed Deposit
+U345,42764,6,20,Salaried,Higher,52428,466755,8552,Low,Government Bonds
+U346,76543,2,35,Unemployed,Primary,33870,293851,15308,Medium,Gold
+U347,47714,6,57,Salaried,Primary,103547,199886,9542,Medium,Gold
+U348,58835,6,38,Self-employed,Secondary,235990,138368,11767,High,Real Estate
+U349,75744,2,32,Unemployed,Primary,49067,156470,15148,High,Gold
+U350,58491,6,50,Daily Wage,Primary,451801,297986,11698,Medium,Gold
+U351,20589,3,52,Daily Wage,No Education,238083,13261,4117,Medium,Gold
+U352,45484,4,43,Unemployed,No Education,112217,76709,9096,Medium,Mutual Funds
+U353,84989,2,25,Unemployed,Higher,414823,95985,16997,High,Gold
+U354,38212,5,53,Salaried,No Education,418184,368760,7642,Low,Fixed Deposit
+U355,45525,6,47,Unemployed,No Education,98934,449920,9105,Low,Fixed Deposit
+U356,49202,2,40,Salaried,No Education,142980,329317,9840,Low,Government Bonds
+U357,34635,1,59,Self-employed,No Education,419639,293925,6927,Medium,Mutual Funds
+U358,65208,1,31,Salaried,Higher,336851,275796,13041,Medium,Gold
+U359,35828,4,31,Unemployed,No Education,209329,267247,7165,Medium,Mutual Funds
+U360,20711,3,19,Unemployed,Secondary,257354,287644,4142,Medium,Gold
+U361,5420,4,54,Self-employed,Secondary,61215,246404,1084,Low,Government Bonds
+U362,98752,4,22,Unemployed,Secondary,186907,100336,19750,High,Gold
+U363,2301,4,55,Unemployed,Secondary,311573,428745,460,Low,Fixed Deposit
+U364,47236,4,58,Daily Wage,No Education,344296,113499,9447,Medium,Gold
+U365,68235,5,31,Daily Wage,Secondary,108048,149524,13647,High,Real Estate
+U366,56240,5,56,Self-employed,No Education,169530,311537,11248,Low,Government Bonds
+U367,67726,2,42,Salaried,Higher,177241,424390,13545,Low,Fixed Deposit
+U368,12492,1,37,Daily Wage,Secondary,138731,457666,2498,Low,Fixed Deposit
+U369,8102,4,19,Salaried,Primary,453830,166508,1620,Low,Government Bonds
+U370,52336,2,56,Unemployed,Secondary,239977,309550,10467,Low,Government Bonds
+U371,87314,1,23,Daily Wage,Secondary,339384,325203,17462,Low,Government Bonds
+U372,28641,6,34,Self-employed,No Education,426009,147026,5728,Medium,Gold
+U373,36584,3,42,Self-employed,Secondary,113688,344866,7316,Low,Government Bonds
+U374,34745,5,45,Self-employed,Primary,308617,250819,6949,Medium,Mutual Funds
+U375,25093,6,19,Daily Wage,No Education,358906,12356,5018,Medium,Gold
+U376,68105,1,52,Salaried,No Education,220460,128128,13621,High,Gold
+U377,53885,6,54,Unemployed,Higher,490834,491715,10777,Low,Fixed Deposit
+U378,38631,3,22,Salaried,Higher,481546,2187,7726,Medium,Gold
+U379,74991,1,18,Salaried,Secondary,369100,339387,14998,Low,Government Bonds
+U380,6014,6,57,Unemployed,Higher,380596,297242,1202,Low,Fixed Deposit
+U381,13093,5,29,Unemployed,Higher,186823,485687,2618,Low,Government Bonds
+U382,20070,5,53,Daily Wage,Higher,388455,152297,4014,Medium,Gold
+U383,37777,2,40,Daily Wage,No Education,209987,134678,7555,Medium,Gold
+U384,58958,6,48,Daily Wage,No Education,447470,319764,11791,Low,Fixed Deposit
+U385,84074,4,28,Daily Wage,No Education,269150,426044,16814,Low,Government Bonds
+U386,12729,6,27,Daily Wage,Higher,249243,126270,2545,Low,Fixed Deposit
+U387,47017,1,20,Unemployed,No Education,74218,419705,9403,Low,Government Bonds
+U388,68320,1,31,Salaried,Higher,196416,276531,13664,Medium,Mutual Funds
+U389,29751,6,33,Daily Wage,No Education,427056,331607,5950,Low,Government Bonds
+U390,80069,3,27,Daily Wage,No Education,32430,465048,16013,Low,Fixed Deposit
+U391,56748,5,46,Salaried,Primary,23091,489196,11349,Low,Fixed Deposit
+U392,7801,1,27,Daily Wage,Secondary,257125,242998,1560,Low,Fixed Deposit
+U393,21190,5,29,Salaried,Higher,426199,395807,4238,Low,Fixed Deposit
+U394,51689,1,47,Salaried,Primary,23989,241503,10337,Medium,Mutual Funds
+U395,52993,2,58,Unemployed,No Education,75451,441732,10598,Low,Fixed Deposit
+U396,31592,4,18,Self-employed,Higher,18990,353827,6318,Low,Government Bonds
+U397,12647,1,22,Unemployed,No Education,352414,62061,2529,Low,Government Bonds
+U398,10716,5,37,Self-employed,Secondary,342504,235497,2143,Low,Fixed Deposit
+U399,90891,2,25,Self-employed,Primary,250541,459952,18178,Low,Fixed Deposit
+U400,89545,1,60,Self-employed,Secondary,298225,81257,17909,High,Real Estate
+U401,91912,3,29,Daily Wage,Primary,142105,61753,18382,High,Real Estate
+U402,72316,4,18,Unemployed,No Education,370416,346918,14463,Low,Government Bonds
+U403,4368,1,37,Self-employed,Secondary,278385,404303,873,Low,Fixed Deposit
+U404,79575,2,45,Salaried,Secondary,124932,424032,15915,Low,Government Bonds
+U405,8655,3,60,Daily Wage,No Education,268083,23408,1731,Low,Government Bonds
+U406,72031,6,54,Unemployed,Secondary,113000,124116,14406,High,Real Estate
+U407,78429,2,54,Self-employed,Higher,178634,498492,15685,Low,Fixed Deposit
+U408,93083,2,29,Salaried,Primary,35063,131208,18616,High,Gold
+U409,89922,3,54,Unemployed,Primary,493216,17413,17984,High,Gold
+U410,57766,2,45,Unemployed,Primary,207793,113650,11553,High,Real Estate
+U411,15403,3,32,Daily Wage,Higher,158117,59500,3080,Low,Fixed Deposit
+U412,34097,1,23,Unemployed,Primary,437985,346658,6819,Low,Fixed Deposit
+U413,80657,3,37,Daily Wage,No Education,309262,56358,16131,High,Gold
+U414,12966,3,31,Self-employed,Secondary,84703,66197,2593,Low,Government Bonds
+U415,95848,4,19,Daily Wage,Higher,495164,493992,19169,Low,Fixed Deposit
+U416,54921,3,26,Salaried,Primary,414841,223861,10984,Medium,Gold
+U417,51726,3,54,Daily Wage,No Education,235796,223492,10345,Medium,Gold
+U418,52300,6,37,Salaried,Secondary,128557,261545,10460,Medium,Mutual Funds
+U419,24677,1,43,Daily Wage,Secondary,289220,426070,4935,Low,Fixed Deposit
+U420,57609,4,46,Unemployed,Higher,253317,76240,11521,High,Gold
+U421,98825,6,18,Self-employed,Higher,195877,235595,19765,Medium,Gold
+U422,58661,5,52,Salaried,Higher,306749,221135,11732,Medium,Mutual Funds
+U423,33024,1,23,Daily Wage,No Education,346709,278466,6604,Medium,Mutual Funds
+U424,72313,1,54,Daily Wage,No Education,481725,375197,14462,Low,Fixed Deposit
+U425,55006,5,22,Daily Wage,Higher,301265,6968,11001,High,Real Estate
+U426,97285,3,50,Unemployed,Primary,458317,289662,19457,Medium,Mutual Funds
+U427,17338,6,31,Unemployed,Secondary,293577,314069,3467,Low,Government Bonds
+U428,70027,2,29,Salaried,Secondary,43309,190920,14005,High,Gold
+U429,94772,4,59,Salaried,No Education,329612,374044,18954,Low,Government Bonds
+U430,82135,2,37,Unemployed,Secondary,437470,355566,16427,Low,Government Bonds
+U431,21508,5,41,Salaried,Primary,329437,263844,4301,Medium,Mutual Funds
+U432,5051,1,60,Self-employed,Secondary,358402,355926,1010,Low,Fixed Deposit
+U433,50747,1,51,Self-employed,No Education,431069,232076,10149,Medium,Mutual Funds
+U434,89142,4,42,Unemployed,No Education,300549,23199,17828,High,Gold
+U435,89235,1,46,Salaried,Primary,459868,437805,17847,Low,Government Bonds
+U436,56021,1,56,Daily Wage,Primary,43527,163187,11204,High,Gold
+U437,68412,4,48,Self-employed,Secondary,339371,455150,13682,Low,Fixed Deposit
+U438,60335,6,60,Unemployed,Secondary,393708,185388,12067,High,Gold
+U439,58179,6,40,Salaried,No Education,224490,5520,11635,High,Real Estate
+U440,34093,4,55,Unemployed,Primary,139883,109814,6818,Medium,Mutual Funds
+U441,71678,5,37,Daily Wage,Primary,93344,167527,14335,High,Real Estate
+U442,82738,1,40,Self-employed,Primary,155344,246356,16547,Medium,Mutual Funds
+U443,41734,1,33,Unemployed,Secondary,487151,479681,8346,Low,Fixed Deposit
+U444,74615,5,59,Unemployed,Primary,465226,123364,14923,High,Real Estate
+U445,75523,6,25,Unemployed,No Education,223564,434821,15104,Low,Government Bonds
+U446,96476,3,38,Daily Wage,No Education,47153,14955,19295,High,Real Estate
+U447,19019,3,18,Unemployed,Secondary,108042,175121,3803,Low,Fixed Deposit
+U448,85613,3,25,Daily Wage,Higher,54110,144989,17122,High,Gold
+U449,93794,6,46,Daily Wage,Secondary,145051,463509,18758,Low,Fixed Deposit
+U450,88672,6,49,Daily Wage,Higher,241131,471797,17734,Low,Government Bonds
+U451,75847,5,55,Self-employed,Primary,239173,250144,15169,Medium,Gold
+U452,84750,1,22,Self-employed,Secondary,28328,64925,16950,High,Gold
+U453,81634,5,39,Unemployed,No Education,112911,369360,16326,Low,Fixed Deposit
+U454,30251,5,51,Unemployed,Primary,275011,70269,6050,Medium,Mutual Funds
+U455,27945,6,18,Self-employed,No Education,59234,424170,5589,Low,Government Bonds
+U456,92852,3,43,Salaried,Primary,287995,489887,18570,Low,Fixed Deposit
+U457,34217,2,60,Self-employed,Secondary,293423,465833,6843,Low,Fixed Deposit
+U458,10308,1,27,Daily Wage,Higher,248503,303602,2061,Low,Government Bonds
+U459,7949,6,47,Self-employed,Primary,227135,351181,1589,Low,Government Bonds
+U460,53990,3,35,Daily Wage,Higher,73402,152185,10798,High,Real Estate
+U461,3150,2,34,Unemployed,Primary,277593,99977,630,Low,Government Bonds
+U462,91480,2,43,Salaried,No Education,338365,483442,18296,Low,Government Bonds
+U463,76740,6,25,Unemployed,No Education,351224,306083,15348,Low,Government Bonds
+U464,68617,4,57,Daily Wage,Primary,5451,29345,13723,High,Real Estate
+U465,96841,1,29,Daily Wage,Higher,87178,255688,19368,Medium,Mutual Funds
+U466,18896,2,44,Daily Wage,Secondary,434532,439529,3779,Low,Fixed Deposit
+U467,48175,6,25,Salaried,Secondary,456280,372251,9635,Low,Government Bonds
+U468,9805,6,42,Self-employed,No Education,325905,384010,1961,Low,Fixed Deposit
+U469,7237,3,21,Unemployed,Secondary,236562,485581,1447,Low,Government Bonds
+U470,22056,4,50,Unemployed,No Education,301014,261798,4411,Medium,Mutual Funds
+U471,47543,1,18,Self-employed,Secondary,358710,493814,9508,Low,Fixed Deposit
+U472,58556,5,36,Unemployed,Primary,385893,331310,11711,Low,Government Bonds
+U473,5343,3,48,Salaried,No Education,123765,178933,1068,Low,Fixed Deposit
+U474,15500,2,33,Unemployed,No Education,387025,97406,3100,Low,Government Bonds
+U475,55222,2,31,Daily Wage,Primary,424089,311442,11044,Low,Fixed Deposit
+U476,31375,3,22,Self-employed,No Education,128389,440437,6275,Low,Fixed Deposit
+U477,11662,6,58,Salaried,Secondary,189699,307086,2332,Low,Government Bonds
+U478,18964,2,43,Self-employed,Secondary,197227,3453,3792,Low,Government Bonds
+U479,61638,4,45,Salaried,No Education,492402,102811,12327,High,Gold
+U480,75666,1,19,Daily Wage,Secondary,287516,54935,15133,High,Real Estate
+U481,87067,4,23,Self-employed,Higher,265786,384583,17413,Low,Fixed Deposit
+U482,69215,2,26,Unemployed,No Education,260220,174442,13843,High,Real Estate
+U483,71042,5,50,Salaried,Primary,421217,497148,14208,Low,Government Bonds
+U484,15284,1,58,Self-employed,Higher,296208,270472,3056,Low,Government Bonds
+U485,74789,1,42,Unemployed,No Education,225898,15534,14957,High,Gold
+U486,86664,3,30,Self-employed,Primary,276266,347424,17332,Low,Fixed Deposit
+U487,95468,3,26,Self-employed,Secondary,418036,478141,19093,Low,Fixed Deposit
+U488,63389,5,30,Self-employed,Primary,68431,36320,12677,High,Gold
+U489,11435,6,48,Salaried,Higher,55745,49170,2287,Low,Fixed Deposit
+U490,56340,1,58,Unemployed,Secondary,50081,100546,11268,High,Gold
+U491,46078,5,28,Daily Wage,No Education,464118,80201,9215,Medium,Mutual Funds
+U492,80832,3,21,Salaried,Secondary,401927,234473,16166,Medium,Mutual Funds
+U493,53293,3,51,Salaried,No Education,216204,270784,10658,Medium,Gold
+U494,97981,1,55,Salaried,No Education,412009,231324,19596,Medium,Mutual Funds
+U495,80781,4,21,Daily Wage,Primary,401415,484273,16156,Low,Fixed Deposit
+U496,62403,2,55,Unemployed,Primary,76253,161121,12480,High,Gold
+U497,31124,3,36,Unemployed,Primary,298335,398834,6224,Low,Government Bonds
+U498,97435,6,23,Unemployed,Higher,272355,233612,19487,Medium,Mutual Funds
+U499,45919,6,51,Self-employed,Higher,111086,187125,9183,Medium,Gold
+U500,37247,3,35,Self-employed,Primary,456285,395136,7449,Low,Fixed Deposit
+U501,96758,4,30,Self-employed,Higher,482112,306081,19351,Low,Government Bonds
+U502,93747,4,58,Daily Wage,Secondary,449962,200796,18749,Medium,Mutual Funds
+U503,64752,5,40,Self-employed,Secondary,414758,143279,12950,High,Real Estate
+U504,58573,6,36,Daily Wage,Higher,424528,196846,11714,High,Gold
+U505,61101,5,28,Unemployed,Higher,438458,164044,12220,High,Real Estate
+U506,28646,6,18,Self-employed,Secondary,364115,404015,5729,Low,Fixed Deposit
+U507,25049,2,41,Self-employed,No Education,93783,202160,5009,Medium,Gold
+U508,81605,2,24,Salaried,Secondary,125681,422132,16321,Low,Government Bonds
+U509,99379,1,42,Daily Wage,Secondary,87893,70463,19875,High,Real Estate
+U510,70385,5,38,Unemployed,Higher,448604,93500,14077,High,Gold
+U511,42158,3,32,Salaried,Secondary,499797,207772,8431,Medium,Gold
+U512,67417,5,18,Salaried,Higher,158763,37158,13483,High,Real Estate
+U513,25289,3,29,Unemployed,Higher,77960,84607,5057,Medium,Mutual Funds
+U514,11823,4,24,Salaried,Primary,346532,381783,2364,Low,Government Bonds
+U515,62160,5,32,Daily Wage,Secondary,22601,245017,12432,Medium,Gold
+U516,43975,4,38,Daily Wage,No Education,411236,333840,8795,Low,Government Bonds
+U517,11540,2,36,Self-employed,Primary,139227,323654,2308,Low,Fixed Deposit
+U518,18364,2,46,Salaried,Higher,200191,120076,3672,Low,Fixed Deposit
+U519,6611,1,42,Self-employed,Higher,474267,58692,1322,Low,Fixed Deposit
+U520,29663,5,50,Salaried,No Education,167849,130841,5932,Medium,Mutual Funds
+U521,53991,4,49,Daily Wage,Higher,281854,192816,10798,High,Real Estate
+U522,59679,3,52,Daily Wage,Secondary,370858,277954,11935,Medium,Mutual Funds
+U523,32977,2,55,Daily Wage,Primary,155604,398342,6595,Low,Fixed Deposit
+U524,96704,2,43,Salaried,Higher,128727,161081,19340,High,Gold
+U525,51115,3,28,Daily Wage,Higher,411817,492336,10223,Low,Government Bonds
+U526,93007,4,52,Salaried,No Education,63227,111718,18601,High,Real Estate
+U527,90223,4,25,Self-employed,Secondary,136039,353076,18044,Low,Fixed Deposit
+U528,62890,5,31,Salaried,Higher,84289,192,12578,High,Real Estate
+U529,68387,5,27,Self-employed,No Education,151094,247536,13677,Medium,Gold
+U530,20071,6,19,Salaried,Higher,436679,36413,4014,Medium,Mutual Funds
+U531,61275,6,26,Self-employed,No Education,205743,143888,12255,High,Gold
+U532,74369,1,20,Daily Wage,No Education,267866,39082,14873,High,Gold
+U533,13938,2,38,Self-employed,Secondary,158485,327192,2787,Low,Government Bonds
+U534,37195,5,43,Daily Wage,Higher,485988,123130,7439,Medium,Gold
+U535,93680,4,25,Daily Wage,Secondary,343194,50940,18736,High,Gold
+U536,6000,3,19,Self-employed,No Education,233820,163202,1200,Low,Fixed Deposit
+U537,72588,4,23,Salaried,Primary,236994,40142,14517,High,Real Estate
+U538,95610,2,45,Salaried,Higher,479083,36468,19122,High,Gold
+U539,99856,6,46,Unemployed,Primary,345740,423914,19971,Low,Fixed Deposit
+U540,40304,4,43,Salaried,Higher,328876,141727,8060,Medium,Gold
+U541,71449,1,42,Unemployed,Secondary,405513,178969,14289,High,Gold
+U542,84986,2,29,Salaried,Secondary,68323,423291,16997,Low,Fixed Deposit
+U543,91643,6,22,Salaried,Secondary,285960,402575,18328,Low,Fixed Deposit
+U544,22764,3,51,Daily Wage,Secondary,40695,391192,4552,Low,Fixed Deposit
+U545,88027,6,54,Unemployed,Secondary,412918,495413,17605,Low,Fixed Deposit
+U546,40494,1,32,Salaried,Primary,418458,236187,8098,Medium,Mutual Funds
+U547,5373,2,53,Unemployed,Secondary,55841,42056,1074,Low,Government Bonds
+U548,14161,3,32,Daily Wage,No Education,390642,51831,2832,Low,Fixed Deposit
+U549,99532,1,60,Daily Wage,No Education,198784,321335,19906,Low,Fixed Deposit
+U550,94658,6,40,Unemployed,Primary,478879,249664,18931,Medium,Mutual Funds
+U551,29350,1,23,Daily Wage,Higher,107096,384092,5870,Low,Government Bonds
+U552,95008,2,60,Self-employed,No Education,92764,426488,19001,Low,Fixed Deposit
+U553,96297,5,38,Self-employed,Higher,446790,108117,19259,High,Gold
+U554,27351,1,40,Daily Wage,Primary,85744,276815,5470,Medium,Mutual Funds
+U555,90668,1,60,Self-employed,Higher,290626,289192,18133,Medium,Mutual Funds
+U556,17305,6,33,Salaried,Higher,9171,469490,3461,Low,Government Bonds
+U557,77353,6,32,Unemployed,Higher,100755,288107,15470,Medium,Mutual Funds
+U558,78797,3,42,Salaried,Higher,492148,43954,15759,High,Real Estate
+U559,67953,6,53,Unemployed,Primary,108125,465525,13590,Low,Government Bonds
+U560,59458,4,28,Daily Wage,No Education,392866,233192,11891,Medium,Mutual Funds
+U561,22358,2,32,Salaried,Secondary,368226,357574,4471,Low,Government Bonds
+U562,5267,2,21,Daily Wage,Higher,3696,717,1053,Low,Government Bonds
+U563,84745,5,38,Daily Wage,No Education,126310,273820,16949,Medium,Gold
+U564,91588,5,30,Unemployed,No Education,413274,397650,18317,Low,Government Bonds
+U565,40513,2,39,Unemployed,Primary,151385,180882,8102,Medium,Gold
+U566,28092,5,36,Unemployed,No Education,281293,496577,5618,Low,Fixed Deposit
+U567,13338,3,51,Salaried,Primary,392208,118696,2667,Low,Fixed Deposit
+U568,2412,6,31,Self-employed,Higher,315665,487852,482,Low,Fixed Deposit
+U569,9543,2,21,Unemployed,Higher,45740,392974,1908,Low,Government Bonds
+U570,35496,5,44,Unemployed,Secondary,106611,4994,7099,Medium,Gold
+U571,62692,2,46,Salaried,Secondary,398172,266378,12538,Medium,Gold
+U572,91084,4,45,Unemployed,Secondary,468947,69300,18216,High,Gold
+U573,94920,1,52,Salaried,No Education,475828,306093,18984,Low,Fixed Deposit
+U574,46425,6,25,Daily Wage,Higher,248922,37405,9285,Medium,Mutual Funds
+U575,40756,2,33,Unemployed,Primary,328785,297016,8151,Medium,Gold
+U576,20888,1,59,Unemployed,Secondary,63811,304359,4177,Low,Government Bonds
+U577,37735,5,53,Daily Wage,Primary,445376,23185,7547,Medium,Mutual Funds
+U578,49295,1,47,Daily Wage,Primary,182385,174514,9859,Medium,Gold
+U579,85042,6,35,Daily Wage,Secondary,63232,444975,17008,Low,Government Bonds
+U580,87999,2,19,Unemployed,Higher,277561,303297,17599,Low,Government Bonds
+U581,19955,4,30,Self-employed,Secondary,155801,339679,3991,Low,Fixed Deposit
+U582,39841,5,21,Self-employed,Primary,112492,495239,7968,Low,Fixed Deposit
+U583,72640,2,43,Self-employed,Secondary,30099,133653,14528,High,Gold
+U584,67510,6,42,Unemployed,Primary,229206,51717,13502,High,Real Estate
+U585,36911,5,47,Daily Wage,Primary,423177,2763,7382,Medium,Gold
+U586,61031,3,28,Unemployed,Secondary,405818,355054,12206,Low,Government Bonds
+U587,90726,1,24,Daily Wage,No Education,118474,55480,18145,High,Real Estate
+U588,9357,6,48,Unemployed,Secondary,271400,169831,1871,Low,Government Bonds
+U589,34479,3,27,Unemployed,No Education,479336,207139,6895,Medium,Gold
+U590,63476,2,56,Daily Wage,Primary,243588,118094,12695,High,Real Estate
+U591,46811,4,30,Self-employed,Primary,34681,156379,9362,Medium,Gold
+U592,38208,5,48,Daily Wage,No Education,91328,227443,7641,Medium,Gold
+U593,22150,1,24,Salaried,Primary,218512,11064,4430,Medium,Gold
+U594,73180,5,59,Salaried,No Education,458005,76848,14636,High,Real Estate
+U595,45286,2,59,Daily Wage,No Education,305505,37548,9057,Medium,Gold
+U596,70450,5,53,Unemployed,Primary,457719,168017,14090,High,Real Estate
+U597,23352,1,37,Salaried,Higher,34540,441153,4670,Low,Government Bonds
+U598,57069,2,21,Salaried,No Education,157608,268620,11413,Medium,Gold
+U599,16397,5,24,Unemployed,Secondary,84700,444972,3279,Low,Government Bonds
+U600,43555,4,18,Unemployed,Secondary,456259,352245,8711,Low,Government Bonds
+U601,48959,6,59,Self-employed,Primary,340676,2382,9791,Medium,Mutual Funds
+U602,2728,2,30,Unemployed,Higher,187647,442899,545,Low,Fixed Deposit
+U603,52517,6,39,Daily Wage,Primary,389770,481215,10503,Low,Government Bonds
+U604,68234,2,38,Daily Wage,Higher,396087,176348,13646,High,Gold
+U605,41954,4,39,Self-employed,No Education,46002,426618,8390,Low,Government Bonds
+U606,49280,6,45,Salaried,No Education,49812,485097,9856,Low,Government Bonds
+U607,81459,3,26,Salaried,No Education,415842,420162,16291,Low,Government Bonds
+U608,18779,1,43,Unemployed,No Education,191051,79698,3755,Low,Government Bonds
+U609,65932,3,26,Daily Wage,Secondary,469273,245762,13186,Medium,Gold
+U610,74936,5,32,Salaried,Secondary,257906,243381,14987,Medium,Gold
+U611,26466,4,27,Self-employed,Primary,108946,467149,5293,Low,Fixed Deposit
+U612,38939,3,41,Self-employed,Higher,66668,415551,7787,Low,Fixed Deposit
+U613,71896,2,59,Daily Wage,No Education,99003,45095,14379,High,Real Estate
+U614,37270,5,25,Self-employed,No Education,211142,473146,7454,Low,Government Bonds
+U615,61163,5,41,Self-employed,Higher,220462,392118,12232,Low,Government Bonds
+U616,84637,3,33,Daily Wage,Higher,305142,289341,16927,Medium,Gold
+U617,53934,3,43,Unemployed,Primary,194886,389763,10786,Low,Fixed Deposit
+U618,66895,4,44,Unemployed,Higher,104601,22010,13379,High,Gold
+U619,34307,1,54,Self-employed,No Education,438823,417339,6861,Low,Fixed Deposit
+U620,56098,3,21,Unemployed,No Education,269956,350067,11219,Low,Government Bonds
+U621,62921,3,41,Unemployed,No Education,61844,133962,12584,High,Real Estate
+U622,7486,6,36,Self-employed,No Education,201165,486521,1497,Low,Fixed Deposit
+U623,10335,2,53,Unemployed,No Education,395395,392670,2067,Low,Fixed Deposit
+U624,88900,6,56,Self-employed,Primary,174870,109162,17780,High,Gold
+U625,91112,6,27,Salaried,No Education,74601,383071,18222,Low,Fixed Deposit
+U626,99203,5,42,Daily Wage,Primary,401491,270170,19840,Medium,Gold
+U627,13130,1,35,Daily Wage,No Education,443790,327069,2626,Low,Government Bonds
+U628,89508,2,36,Unemployed,Secondary,310001,68842,17901,High,Gold
+U629,62566,4,53,Unemployed,Secondary,387699,295809,12513,Medium,Gold
+U630,68703,4,27,Unemployed,Secondary,494700,271421,13740,Medium,Gold
+U631,29192,3,50,Daily Wage,Secondary,282844,173311,5838,Medium,Mutual Funds
+U632,3062,3,22,Salaried,Primary,257927,440880,612,Low,Government Bonds
+U633,86076,4,52,Salaried,Primary,432680,310152,17215,Low,Government Bonds
+U634,91780,3,51,Daily Wage,Higher,173423,276827,18356,Medium,Gold
+U635,23545,1,50,Salaried,No Education,93330,131742,4709,Medium,Gold
+U636,23689,6,38,Daily Wage,Secondary,225391,220283,4737,Medium,Gold
+U637,13174,3,34,Salaried,Primary,213606,148961,2634,Low,Fixed Deposit
+U638,90461,5,39,Self-employed,No Education,407085,448828,18092,Low,Fixed Deposit
+U639,11348,3,54,Self-employed,No Education,191387,175607,2269,Low,Government Bonds
+U640,25714,2,32,Daily Wage,Primary,241133,340686,5142,Low,Fixed Deposit
+U641,40102,1,52,Salaried,Secondary,486904,316463,8020,Low,Fixed Deposit
+U642,76460,2,45,Unemployed,Higher,414170,245144,15292,Medium,Gold
+U643,91930,2,24,Salaried,No Education,162627,354211,18386,Low,Fixed Deposit
+U644,8801,5,49,Self-employed,Higher,325497,152711,1760,Low,Government Bonds
+U645,74267,1,28,Self-employed,Secondary,475406,195784,14853,High,Real Estate
+U646,50136,1,27,Salaried,Secondary,438242,409849,10027,Low,Fixed Deposit
+U647,25625,1,26,Salaried,Higher,362916,252217,5125,Medium,Mutual Funds
+U648,84873,1,31,Unemployed,Secondary,178048,427876,16974,Low,Government Bonds
+U649,74592,1,30,Unemployed,No Education,473794,331119,14918,Low,Fixed Deposit
+U650,79052,5,42,Salaried,Higher,353646,163244,15810,High,Real Estate
+U651,46261,3,19,Salaried,Secondary,376087,452413,9252,Low,Government Bonds
+U652,3542,2,52,Salaried,Higher,371994,101158,708,Low,Government Bonds
+U653,23677,1,24,Salaried,No Education,45095,452063,4735,Low,Fixed Deposit
+U654,48732,3,38,Daily Wage,Secondary,145342,273721,9746,Medium,Gold
+U655,52343,3,35,Salaried,No Education,161980,339443,10468,Low,Fixed Deposit
+U656,41081,2,20,Unemployed,Secondary,277667,282320,8216,Medium,Mutual Funds
+U657,64856,5,59,Self-employed,Primary,62433,437602,12971,Low,Government Bonds
+U658,95105,4,56,Daily Wage,Secondary,440284,63972,19021,High,Gold
+U659,90858,4,58,Salaried,Higher,19991,382162,18171,Low,Government Bonds
+U660,21065,3,28,Self-employed,Secondary,272919,483007,4213,Low,Fixed Deposit
+U661,85460,6,56,Daily Wage,No Education,471017,434219,17092,Low,Government Bonds
+U662,90092,6,41,Self-employed,No Education,347139,282140,18018,Medium,Mutual Funds
+U663,56693,2,36,Salaried,Secondary,454466,100922,11338,High,Gold
+U664,28962,4,21,Salaried,Higher,147745,348742,5792,Low,Fixed Deposit
+U665,30295,3,43,Unemployed,Primary,122808,35931,6059,Medium,Gold
+U666,15807,5,55,Salaried,Higher,158128,124168,3161,Low,Fixed Deposit
+U667,44348,4,59,Salaried,Primary,137686,166782,8869,Medium,Gold
+U668,28432,3,49,Daily Wage,No Education,494772,123099,5686,Medium,Mutual Funds
+U669,85285,3,56,Unemployed,Higher,7415,34693,17057,High,Gold
+U670,93792,1,53,Daily Wage,Primary,481907,428956,18758,Low,Government Bonds
+U671,59854,5,57,Self-employed,Secondary,246038,470457,11970,Low,Fixed Deposit
+U672,42262,1,54,Salaried,No Education,437100,108944,8452,Medium,Gold
+U673,39080,2,50,Self-employed,Secondary,410180,224655,7816,Medium,Mutual Funds
+U674,3324,1,53,Daily Wage,No Education,430942,207574,664,Low,Fixed Deposit
+U675,93267,1,20,Salaried,Higher,254205,279518,18653,Medium,Gold
+U676,37909,4,26,Salaried,Higher,299188,469890,7581,Low,Fixed Deposit
+U677,91339,6,25,Daily Wage,No Education,188221,247572,18267,Medium,Gold
+U678,21870,3,50,Daily Wage,No Education,168616,343615,4374,Low,Government Bonds
+U679,36578,5,23,Daily Wage,No Education,49976,45913,7315,Medium,Mutual Funds
+U680,74124,1,58,Daily Wage,Higher,425468,385827,14824,Low,Government Bonds
+U681,28790,5,56,Daily Wage,Primary,265976,197097,5758,Medium,Mutual Funds
+U682,27289,6,21,Salaried,Secondary,221883,306660,5457,Low,Fixed Deposit
+U683,57129,6,30,Daily Wage,Secondary,211509,87796,11425,High,Gold
+U684,95714,1,19,Salaried,Higher,496965,288213,19142,Medium,Gold
+U685,96246,2,22,Salaried,Secondary,296292,380477,19249,Low,Fixed Deposit
+U686,17485,1,44,Daily Wage,No Education,454456,449449,3497,Low,Fixed Deposit
+U687,46482,4,49,Daily Wage,Primary,239241,84811,9296,Medium,Gold
+U688,88188,3,38,Unemployed,Secondary,219526,190121,17637,High,Gold
+U689,6748,2,25,Salaried,Primary,374374,232892,1349,Low,Government Bonds
+U690,88769,1,55,Daily Wage,No Education,347220,380172,17753,Low,Government Bonds
+U691,11435,5,25,Daily Wage,Secondary,470332,39178,2287,Low,Fixed Deposit
+U692,5709,2,20,Daily Wage,Higher,446675,294965,1141,Low,Government Bonds
+U693,32355,2,20,Unemployed,Primary,300546,444943,6471,Low,Fixed Deposit
+U694,57771,1,39,Unemployed,No Education,188799,454151,11554,Low,Fixed Deposit
+U695,59799,2,23,Self-employed,Primary,38578,16999,11959,High,Gold
+U696,15116,5,19,Salaried,Secondary,90453,455738,3023,Low,Fixed Deposit
+U697,27470,6,40,Self-employed,Secondary,415534,300856,5494,Low,Government Bonds
+U698,44344,2,19,Daily Wage,Higher,337859,195623,8868,Medium,Mutual Funds
+U699,44918,6,55,Unemployed,No Education,208859,171244,8983,Medium,Gold
+U700,54224,5,34,Unemployed,No Education,111435,295866,10844,Medium,Mutual Funds
+U701,41298,1,52,Self-employed,Higher,216101,272769,8259,Medium,Mutual Funds
+U702,82219,3,51,Unemployed,Higher,151538,198237,16443,High,Gold
+U703,63629,2,40,Daily Wage,No Education,357886,469725,12725,Low,Government Bonds
+U704,68040,3,47,Unemployed,Primary,45475,6859,13608,High,Real Estate
+U705,30016,5,25,Self-employed,Primary,322286,434825,6003,Low,Fixed Deposit
+U706,25960,2,39,Daily Wage,Higher,216232,436523,5192,Low,Government Bonds
+U707,35591,6,53,Self-employed,Primary,157636,110986,7118,Medium,Mutual Funds
+U708,84848,4,22,Unemployed,No Education,153484,232654,16969,Medium,Gold
+U709,69641,3,30,Self-employed,Secondary,93526,283983,13928,Medium,Mutual Funds
+U710,38395,2,46,Self-employed,Secondary,51001,289360,7679,Medium,Gold
+U711,24700,3,48,Salaried,Primary,319793,315097,4940,Low,Fixed Deposit
+U712,36620,2,33,Unemployed,Higher,192029,477697,7324,Low,Government Bonds
+U713,22559,1,59,Unemployed,Higher,428733,453809,4511,Low,Government Bonds
+U714,95045,6,47,Self-employed,Higher,144228,465291,19009,Low,Fixed Deposit
+U715,95396,3,33,Salaried,Higher,416280,49522,19079,High,Gold
+U716,63642,4,29,Unemployed,Higher,25711,230233,12728,Medium,Mutual Funds
+U717,78539,4,34,Daily Wage,Primary,30106,398102,15707,Low,Government Bonds
+U718,23732,5,33,Self-employed,Secondary,327602,373393,4746,Low,Government Bonds
+U719,93362,2,29,Unemployed,Secondary,409805,7485,18672,High,Gold
+U720,32354,3,25,Daily Wage,Primary,482488,424671,6470,Low,Fixed Deposit
+U721,15843,5,37,Unemployed,Higher,392573,243056,3168,Low,Government Bonds
+U722,73726,3,20,Daily Wage,Primary,217583,409983,14745,Low,Fixed Deposit
+U723,19640,2,33,Self-employed,Secondary,363898,112701,3928,Low,Government Bonds
+U724,54528,4,47,Unemployed,No Education,138286,421669,10905,Low,Fixed Deposit
+U725,40413,1,40,Unemployed,Primary,227189,207352,8082,Medium,Mutual Funds
+U726,54638,4,45,Salaried,Higher,478947,102638,10927,High,Real Estate
+U727,54736,5,57,Self-employed,Secondary,126479,184514,10947,High,Gold
+U728,70866,6,22,Daily Wage,Secondary,420343,445093,14173,Low,Fixed Deposit
+U729,21087,1,37,Unemployed,Secondary,136213,274370,4217,Medium,Gold
+U730,43430,5,57,Unemployed,Secondary,28884,93405,8686,Medium,Mutual Funds
+U731,26504,2,18,Daily Wage,Higher,483637,284732,5300,Medium,Mutual Funds
+U732,9114,1,47,Self-employed,No Education,264852,210048,1822,Low,Fixed Deposit
+U733,80859,5,38,Salaried,Secondary,280519,162781,16171,High,Real Estate
+U734,12975,2,37,Salaried,Primary,15088,441004,2595,Low,Government Bonds
+U735,13023,4,23,Unemployed,No Education,319759,481247,2604,Low,Fixed Deposit
+U736,23447,6,39,Daily Wage,Secondary,372282,37019,4689,Medium,Mutual Funds
+U737,92469,2,35,Unemployed,No Education,176118,438164,18493,Low,Government Bonds
+U738,25959,3,25,Daily Wage,Primary,272158,261497,5191,Medium,Mutual Funds
+U739,68203,2,56,Salaried,Secondary,195497,65133,13640,High,Real Estate
+U740,31703,2,49,Self-employed,Primary,396489,376588,6340,Low,Fixed Deposit
+U741,11337,6,50,Daily Wage,Higher,178207,197530,2267,Low,Fixed Deposit
+U742,48427,3,33,Salaried,Secondary,364986,379747,9685,Low,Government Bonds
+U743,63529,5,29,Unemployed,Secondary,424097,158598,12705,High,Gold
+U744,86665,5,55,Daily Wage,Secondary,490238,466709,17333,Low,Fixed Deposit
+U745,33921,2,51,Self-employed,Secondary,78077,128585,6784,Medium,Gold
+U746,35307,3,31,Unemployed,Higher,139784,445414,7061,Low,Government Bonds
+U747,29355,3,53,Unemployed,Secondary,205776,245172,5871,Medium,Mutual Funds
+U748,6835,6,50,Salaried,No Education,315018,492750,1367,Low,Government Bonds
+U749,22159,4,40,Daily Wage,Secondary,69087,305539,4431,Low,Fixed Deposit
+U750,49605,5,19,Unemployed,Higher,274441,417247,9921,Low,Government Bonds
+U751,40088,6,58,Self-employed,Secondary,240341,468758,8017,Low,Government Bonds
+U752,80752,1,38,Daily Wage,No Education,289272,125814,16150,High,Gold
+U753,57284,5,19,Self-employed,Higher,68368,430917,11456,Low,Fixed Deposit
+U754,59043,6,44,Unemployed,Higher,487235,374743,11808,Low,Government Bonds
+U755,37547,5,26,Self-employed,No Education,480815,25939,7509,Medium,Mutual Funds
+U756,99007,4,18,Salaried,No Education,219571,442361,19801,Low,Fixed Deposit
+U757,84844,1,28,Self-employed,No Education,341102,413540,16968,Low,Government Bonds
+U758,29532,4,20,Daily Wage,No Education,295064,153939,5906,Medium,Mutual Funds
+U759,36349,1,40,Self-employed,No Education,251514,262347,7269,Medium,Gold
+U760,47445,2,43,Self-employed,Higher,404372,409760,9489,Low,Fixed Deposit
+U761,7713,6,21,Salaried,Higher,142180,409115,1542,Low,Fixed Deposit
+U762,58178,1,35,Self-employed,Secondary,425061,291207,11635,Medium,Gold
+U763,51407,4,23,Self-employed,Secondary,396016,90880,10281,High,Gold
+U764,72340,5,52,Unemployed,Primary,259904,3748,14468,High,Gold
+U765,52990,1,39,Unemployed,Secondary,496830,236094,10598,Medium,Gold
+U766,77672,6,60,Daily Wage,Secondary,435928,379413,15534,Low,Fixed Deposit
+U767,67545,1,32,Unemployed,No Education,395826,459845,13509,Low,Fixed Deposit
+U768,86791,3,39,Unemployed,No Education,77603,342908,17358,Low,Fixed Deposit
+U769,60141,5,54,Unemployed,Secondary,33872,151956,12028,High,Gold
+U770,25793,6,59,Unemployed,Primary,272872,156255,5158,Medium,Mutual Funds
+U771,58570,6,29,Salaried,No Education,357246,474786,11714,Low,Government Bonds
+U772,97084,2,59,Unemployed,Secondary,488535,464462,19416,Low,Fixed Deposit
+U773,39892,4,55,Salaried,Secondary,384193,370180,7978,Low,Government Bonds
+U774,3015,2,35,Salaried,Higher,282727,150331,603,Low,Fixed Deposit
+U775,63813,6,52,Unemployed,Primary,85774,167031,12762,High,Real Estate
+U776,29712,5,47,Self-employed,Higher,400479,378669,5942,Low,Government Bonds
+U777,10415,1,41,Salaried,Primary,388518,426673,2083,Low,Fixed Deposit
+U778,64292,1,59,Self-employed,No Education,198522,347823,12858,Low,Government Bonds
+U779,25833,5,47,Self-employed,Primary,220357,125829,5166,Medium,Mutual Funds
+U780,6158,6,31,Unemployed,Secondary,412672,128216,1231,Low,Fixed Deposit
+U781,64680,1,23,Daily Wage,Secondary,353262,395319,12936,Low,Government Bonds
+U782,22309,1,20,Unemployed,Primary,65942,65901,4461,Medium,Gold
+U783,8970,1,33,Daily Wage,Primary,13689,243386,1794,Low,Fixed Deposit
+U784,74474,4,24,Daily Wage,Primary,426150,175607,14894,High,Real Estate
+U785,88704,4,31,Unemployed,Higher,33276,409319,17740,Low,Fixed Deposit
+U786,48540,3,26,Unemployed,Primary,101968,98046,9708,Medium,Mutual Funds
+U787,22384,2,32,Daily Wage,No Education,413089,352156,4476,Low,Fixed Deposit
+U788,20017,5,38,Unemployed,Higher,275194,78278,4003,Medium,Mutual Funds
+U789,77880,5,52,Daily Wage,Higher,66216,274535,15576,Medium,Gold
+U790,10702,5,19,Self-employed,Primary,215516,102476,2140,Low,Government Bonds
+U791,2384,3,44,Unemployed,No Education,346184,422117,476,Low,Government Bonds
+U792,2404,4,19,Self-employed,Higher,21644,382865,480,Low,Fixed Deposit
+U793,42943,6,52,Salaried,Secondary,62021,97537,8588,Medium,Mutual Funds
+U794,49926,6,35,Self-employed,Higher,168197,343303,9985,Low,Fixed Deposit
+U795,31189,3,31,Self-employed,Primary,460115,461130,6237,Low,Government Bonds
+U796,14763,6,37,Daily Wage,No Education,42291,393184,2952,Low,Government Bonds
+U797,20384,5,35,Self-employed,Primary,428276,181429,4076,Medium,Mutual Funds
+U798,62100,2,27,Unemployed,Secondary,394754,217980,12420,Medium,Mutual Funds
+U799,11860,1,42,Daily Wage,Secondary,429392,431653,2372,Low,Government Bonds
+U800,82642,4,19,Salaried,Secondary,303664,297647,16528,Medium,Gold
+U801,52612,4,42,Unemployed,Primary,25675,489498,10522,Low,Government Bonds
+U802,25574,3,50,Salaried,Higher,149359,486675,5114,Low,Fixed Deposit
+U803,25524,4,53,Self-employed,Primary,262318,75403,5104,Medium,Mutual Funds
+U804,71172,5,48,Unemployed,No Education,92268,434474,14234,Low,Fixed Deposit
+U805,12916,6,31,Unemployed,Higher,297142,426940,2583,Low,Government Bonds
+U806,6809,5,18,Salaried,Secondary,495807,64286,1361,Low,Government Bonds
+U807,34201,3,33,Unemployed,Primary,184384,336986,6840,Low,Fixed Deposit
+U808,55330,5,20,Unemployed,Secondary,405328,104927,11066,High,Real Estate
+U809,15456,6,52,Unemployed,Secondary,105410,277052,3091,Low,Government Bonds
+U810,58397,2,58,Self-employed,No Education,337369,485833,11679,Low,Fixed Deposit
+U811,40765,3,23,Salaried,Higher,306958,443842,8153,Low,Government Bonds
+U812,36816,2,42,Unemployed,No Education,347235,299372,7363,Medium,Gold
+U813,47106,1,30,Daily Wage,No Education,312863,23386,9421,Medium,Mutual Funds
+U814,55932,2,51,Daily Wage,No Education,129887,177826,11186,High,Gold
+U815,19100,1,25,Daily Wage,Secondary,296063,290446,3820,Low,Fixed Deposit
+U816,59091,1,38,Daily Wage,No Education,335299,322959,11818,Low,Government Bonds
+U817,23949,2,51,Self-employed,No Education,333713,252156,4789,Medium,Gold
+U818,72080,3,21,Unemployed,Higher,303472,477964,14416,Low,Fixed Deposit
+U819,39744,6,42,Salaried,Higher,201554,325488,7948,Low,Government Bonds
+U820,47543,5,32,Unemployed,No Education,286762,428834,9508,Low,Fixed Deposit
+U821,94193,5,21,Self-employed,Higher,34675,373747,18838,Low,Fixed Deposit
+U822,38187,6,29,Daily Wage,Higher,495010,469450,7637,Low,Government Bonds
+U823,9239,1,49,Self-employed,No Education,281063,323258,1847,Low,Fixed Deposit
+U824,16489,1,49,Unemployed,Secondary,266317,248724,3297,Low,Fixed Deposit
+U825,60017,3,45,Salaried,No Education,371513,201202,12003,Medium,Mutual Funds
+U826,63877,4,30,Self-employed,Higher,288544,25525,12775,High,Real Estate
+U827,45125,2,48,Salaried,Secondary,181517,79818,9025,Medium,Mutual Funds
+U828,51922,1,31,Self-employed,Primary,70305,114589,10384,High,Real Estate
+U829,96074,5,37,Salaried,Secondary,168636,145406,19214,High,Gold
+U830,34049,3,35,Salaried,Higher,439030,94715,6809,Medium,Mutual Funds
+U831,39131,2,46,Daily Wage,Secondary,472963,193839,7826,Medium,Gold
+U832,44944,3,23,Salaried,No Education,88791,268788,8988,Medium,Gold
+U833,75963,2,49,Daily Wage,Primary,159034,363298,15192,Low,Fixed Deposit
+U834,26285,2,46,Unemployed,Primary,478108,426149,5257,Low,Government Bonds
+U835,39626,6,60,Unemployed,Primary,479058,257438,7925,Medium,Gold
+U836,44808,1,19,Daily Wage,Higher,70533,305613,8961,Low,Fixed Deposit
+U837,90464,3,40,Daily Wage,Higher,187256,426903,18092,Low,Fixed Deposit
+U838,55871,3,36,Self-employed,Primary,476128,368753,11174,Low,Fixed Deposit
