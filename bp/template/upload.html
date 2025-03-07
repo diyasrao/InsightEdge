@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Input Financial Details</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        babyPink: {
+                            50: '#fdeef4',
+                            100: '#fbdde8',
+                            200: '#f8ccd9',
+                            300: '#f5bbcb',
+                            400: '#f3aabf',
+                            500: '#f198b3',
+                            600: '#ee8699',
+                            700: '#eb7482',
+                            800: '#e9626c',
+                            900: '#e65058',
+                        },
+                    },
+                },
+            },
+        };
+    </script>
+</head>
+<body class="bg-gray-100 min-h-screen flex flex-col p-8">
+
+<!-- Top Navigation Bar -->
+<nav class="w-full bg-babyPink-100 text-gray-900 py-4 shadow-md">
+    <div class="max-w-6xl mx-auto flex justify-between items-center px-6">
+        <h1 class="text-2xl font-bold text-gray-700">Insight Edge</h1>
+        <div class="flex space-x-8">
+            <a href="/upload"
+               class="font-semibold bg-babyPink-500 text-white px-4 py-2 rounded-lg hover:bg-babyPink-600">Upload</a>
+            <a href="/dashboard" class="font-semibold hover:text-babyPink-500">Dashboard</a>
+        </div>
+    </div>
+</nav>
+
+<!-- Main Content -->
+<div class="flex-grow flex items-center justify-center px-4 py-10">
+    <div class="bg-white rounded-lg p-8 shadow-md w-full max-w-lg">
+        <h2 class="font-semibold text-lg mb-6 text-center text-babyPink-500">Input Financial Details</h2>
+        <form action="/upload" method="POST" class="space-y-6">
+            <!-- Household Income -->
+            <div>
+                <label for="income" class="block font-medium text-gray-700 text-sm mb-2">Household Income</label>
+                <input type="number" name="income" id="income"
+                       class="w-full border border-gray-300 rounded-lg p-2 text-sm focus:ring-2 focus:ring-babyPink-500 focus:outline-none"
+                       placeholder="Enter income">
+            </div>
+            <!-- Household Size -->
+            <div>
+                <label for="size" class="block font-medium text-gray-700 text-sm mb-2">Household Size</label>
+                <input type="number" name="size" id="size"
+                       class="w-full border border-gray-300 rounded-lg p-2 text-sm focus:ring-2 focus:ring-babyPink-500 focus:outline-none"
+                       placeholder="Enter size">
+            </div>
+            <!-- Age -->
+            <div>
+                <label for="age" class="block font-medium text-gray-700 text-sm mb-2">Age</label>
+                <input type="number" name="age" id="age"
+                       class="w-full border border-gray-300 rounded-lg p-2 text-sm focus:ring-2 focus:ring-babyPink-500 focus:outline-none"
+                       placeholder="Enter age">
+            </div>
+            <!-- Occupation -->
+            <div>
+                <label for="occupation" class="block font-medium text-gray-700 text-sm mb-2">Occupation</label>
+                <input type="text" name="occupation" id="occupation"
+                       class="w-full border border-gray-300 rounded-lg p-2 text-sm focus:ring-2 focus:ring-babyPink-500 focus:outline-none"
+                       placeholder="Enter occupation">
+            </div>
+            <!-- Education Level -->
+            <div>
+                <label for="education" class="block font-medium text-gray-700 text-sm mb-2">Education Level</label>
+                <select id="education" name="education"
+                        class="w-full border border-gray-300 rounded-lg p-2 text-sm focus:ring-2 focus:ring-babyPink-500 focus:outline-none">
+                    <option value="" disabled selected>Select education level</option>
+                    <option value="highschool">High School</option>
+                    <option value="bachelors">Bachelor's Degree</option>
+                    <option value="masters">Master's Degree</option>
+                    <option value="doctorate">Doctorate</option>
+                    <option value="other">Other</option>
+                </select>
+            </div>
+            <!-- Submit Button -->
+            <button type="submit" class="w-full bg-babyPink-500 text-white py-2 rounded text-sm hover:bg-babyPink-600">
+                Submit
+            </button>
+        </form>
+    </div>
+</div>
+
+</body>
+</html>
