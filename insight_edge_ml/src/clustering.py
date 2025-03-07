@@ -1,19 +1,69 @@
+import os
 import pandas as pd
+import numpy as np
 from sklearn.cluster import KMeans, DBSCAN
-import matplotlib.pyplot as plt
+from sklearn.preprocessing import StandardScaler
+import joblib
 
-def load_data(filepath="../data/processed_data.csv"):
-    """Load preprocessed data."""
-    return pd.read_csv(filepath)
+# Define paths
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+DATA_PATH = os.path.join(BASE_DIR, "../data/processed_data.csv")
+MODEL_PATH = os.path.join(BASE_DIR, "../models/kmeans_model.pkl")
+DBSCAN_MODEL_PATH = os.path.join(BASE_DIR, "../models/dbscan_model.pkl")
 
-def apply_kmeans(df, n_clusters=3):
-    """Apply K-Means clustering."""
-    model = KMeans(n_clusters=n_clusters, random_state=42)
-    df['Cluster'] = model.fit_predict(df.select_dtypes(include=['number']))
-    return df, model
+# Load preprocessed data
+def load_data():
+    if not os.path.exists(DATA_PATH):
+        raise FileNotFoundError(f"❌ Processed dataset not found at {DATA_PATH}")
 
+    df = pd.read_csv(DATA_PATH)
+    print("✅ Data loaded successfully")
+    print("Columns in dataset:", df.columns.tolist())
+    
+    return df
+
+# Clustering function
+def perform_clustering(df):
+    # Selecting relevant numerical features
+    features = ["monthly_income", "current_savings", "existing_loans_debts"]
+    
+    # Check if features exist
+    missing_cols = [col for col in features if col not in df.columns]
+    if missing_cols:
+        raise KeyError(f"❌ Missing columns in dataset: {missing_cols}")
+
+    X = df[features]
+
+    # Standardize the data
+    scaler = StandardScaler()
+    X_scaled = scaler.fit_transform(X)
+
+    # Apply K-Means clustering
+    kmeans = KMeans(n_clusters=3, random_state=42, n_init=10)
+    df["Cluster_KMeans"] = kmeans.fit_predict(X_scaled)
+
+    # Apply DBSCAN clustering
+    dbscan = DBSCAN(eps=0.7, min_samples=5)
+    df["Cluster_DBSCAN"] = dbscan.fit_predict(X_scaled)
+
+    return df, kmeans, dbscan
+
+# Run clustering
 if __name__ == "__main__":
-    df = load_data()
-    df, model = apply_kmeans(df)
-    df.to_csv("../data/clustered_data.csv", index=False)
-    print("✅ Clustering done and saved!")
+    try:
+        df = load_data()
+        df_clustered, kmeans_model, dbscan_model = perform_clustering(df)
+        
+        # Save processed data
+        df_clustered.to_csv(DATA_PATH, index=False)
+        
+        # Save models
+        joblib.dump(kmeans_model, MODEL_PATH)
+        joblib.dump(dbscan_model, DBSCAN_MODEL_PATH)
+        
+        print(f"✅ Clustering completed! Results saved at {DATA_PATH}")
+        print(f"✅ K-Means model saved at {MODEL_PATH}")
+        print(f"✅ DBSCAN model saved at {DBSCAN_MODEL_PATH}")
+
+    except Exception as e:
+        print(f"❌ Error: {e}")
