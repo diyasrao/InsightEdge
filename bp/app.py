@@ -97,7 +97,47 @@ def _dashboard():
     if not sess:
         return redirect("/login")
     user_id = sess[0]["user_id"]
-    return render_template("dashboard.html")
+    result = sql_pool.execute("SELECT * FROM uploads WHERE user_id=?", [user_id])
+    if not result:
+        return redirect("/upload")
+    result = result[0]
+    income = result["income"]
+    size = result["size"]
+    monthly_expenses = size * 1200 if income < 10000 else size * 3500 if income < 30000 else size * 5000
+    remaining = income - monthly_expenses
+
+    if remaining < 5000:
+        govt_plan_1 = "< 5000 1"
+        govt_plan_2 = "< 5000 2"
+        govt_plan_3 = "< 5000 3"
+        invst_plan_1 = ""
+        invst_plan_2 = ""
+        invst_plan_3 = ""
+    elif remaining < 15000:
+        govt_plan_1 = "< 15000 1"
+        govt_plan_2 = "< 15000 2"
+        govt_plan_3 = "< 15000 3"
+        invst_plan_1 = ""
+        invst_plan_2 = ""
+        invst_plan_3 = ""
+    else:
+        govt_plan_1 = "< 5000 1"
+        govt_plan_2 = "< 5000 2"
+        govt_plan_3 = "< 5000 3"
+        invst_plan_1 = ""
+        invst_plan_2 = ""
+        invst_plan_3 = ""
+
+    return render_template("dashboard.html",
+                           income=income,
+                           monthly_expenses=monthly_expenses,
+                           remaining=remaining,
+                           govt_plan_1=govt_plan_1,
+                           govt_plan_2=govt_plan_2,
+                           govt_plan_3=govt_plan_3,
+                           invst_plan_1=invst_plan_1,
+                           invst_plan_2=invst_plan_2,
+                           invst_plan_3=invst_plan_3)
 
 
 @app.post("/upload")
@@ -109,11 +149,12 @@ def _upload():
     user_id = sess[0]["user_id"]
 
     form = request.form.to_dict()
-    income = form["income"]
-    size = form["size"]
-    age = form["age"]
+    income = int(form["income"])
+    size = int(form["size"])
+    age = int(form["age"])
     occupation = form["occupation"]
     education = form["education"]
+    sql_pool.execute("DELETE FROM uploads WHERE user_id=?", [user_id])
     sql_pool.execute("INSERT INTO uploads values (?, ?, ?, ?, ?, ?)", [user_id, income, size, age, occupation, education])
     return redirect("/dashboard")
 

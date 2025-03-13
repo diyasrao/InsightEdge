@@ -78,48 +78,17 @@
         <h2 class="text-xl font-semibold text-babyPink-500 mb-4">Debt Monthly Payment Breakdown</h2>
         <div class="space-y-4">
           <div class="flex justify-between">
-            <p>Monthly Home Loans</p>
-            <p class="font-semibold">₹1,35,917</p>
-          </div>
-          <div class="flex justify-between">
-            <p>Monthly Auto Loans</p>
-            <p class="font-semibold">₹25,813</p>
+            <p>Monthly Expenses</p>
+            <p class="font-semibold">₹{{ monthly_expenses }}</p>
           </div>
           <div class="flex justify-between">
             <p>Monthly Income Remaining</p>
-            <p class="font-semibold">₹2,88,270</p>
+            <p class="font-semibold">₹{{ remaining }}</p>
           </div>
           <div class="border-t pt-4 flex justify-between font-semibold">
             <p>Total Monthly Income</p>
-            <p>₹4,50,000</p>
+            <p>₹{{ total_income }}</p>
           </div>
-        </div>
-      </div>
-    </div>
-
-    <!-- Financial Debt Analysis -->
-    <div class="bg-white p-6 rounded-lg shadow-lg">
-      <h2 class="text-xl font-semibold text-babyPink-500 mb-6">Your Financial Debt Analysis</h2>
-      <div class="grid grid-cols-2 md:grid-cols-5 gap-4">
-        <div class="text-center">
-          <p class="text-gray-500">Total Debt</p>
-          <p class="text-babyPink-500 font-bold">₹1,47,98,061</p>
-        </div>
-        <div class="text-center">
-          <p class="text-gray-500">Credit Cards</p>
-          <p class="text-gray-700 font-bold">₹6,53,749</p>
-        </div>
-        <div class="text-center">
-          <p class="text-gray-500">Auto Loans</p>
-          <p class="text-gray-700 font-bold">₹2,95,936</p>
-        </div>
-        <div class="text-center">
-          <p class="text-gray-500">Home Loans</p>
-          <p class="text-gray-700 font-bold">₹1,38,48,376</p>
-        </div>
-        <div class="text-center">
-          <p class="text-gray-500">Other Loans</p>
-          <p class="text-gray-700 font-bold">₹0</p>
         </div>
       </div>
     </div>
@@ -130,18 +99,18 @@
       <div class="bg-white p-6 rounded-lg shadow-lg">
         <h2 class="text-xl font-semibold text-babyPink-500 mb-4">Government-Supported Plans</h2>
         <ul class="space-y-4">
-          <li class="p-4 bg-babyPink-100 rounded-lg">Plan 1: Pradhan Mantri Awas Yojana (Affordable Housing Scheme)</li>
-          <li class="p-4 bg-babyPink-100 rounded-lg">Plan 2: Sukanya Samriddhi Yojana (For Girl Child)</li>
-          <li class="p-4 bg-babyPink-100 rounded-lg">Plan 3: Atal Pension Yojana (Retirement Benefits)</li>
+          <li class="p-4 bg-babyPink-100 rounded-lg">Plan 1: {{ govt_plan_1 }}</li>
+          <li class="p-4 bg-babyPink-100 rounded-lg">Plan 2: {{ govt_plan_2 }}</li>
+          <li class="p-4 bg-babyPink-100 rounded-lg">Plan 3: {{ govt_plan_3 }}</li>
         </ul>
       </div>
       <!-- Best Investment Plans -->
       <div class="bg-white p-6 rounded-lg shadow-lg">
         <h2 class="text-xl font-semibold text-babyPink-500 mb-4">Best Investment Plans</h2>
         <ul class="space-y-4">
-          <li class="p-4 bg-babyPink-100 rounded-lg">Plan 1: Public Provident Fund (PPF)</li>
-          <li class="p-4 bg-babyPink-100 rounded-lg">Plan 2: Mutual Funds</li>
-          <li class="p-4 bg-babyPink-100 rounded-lg">Plan 3: National Pension Scheme (NPS)</li>
+          <li class="p-4 bg-babyPink-100 rounded-lg">Plan 1: {{ invst_plan_1 }}</li>
+          <li class="p-4 bg-babyPink-100 rounded-lg">Plan 2: {{ invst_plan_2 }}</li>
+          <li class="p-4 bg-babyPink-100 rounded-lg">Plan 3: {{ invst_plan_3 }}</li>
         </ul>
       </div>
     </div>
